@@ -6,6 +6,15 @@ var FuzzySet = require('fuzzyset.js');
 
 
 function processData(data){
+  console.log("data in processData")
+  Object.defineProperty(Array.prototype, 'flat', {
+    value: function(depth = 1) {
+      return this.reduce(function (flat, toFlatten) {
+        return flat.concat((Array.isArray(toFlatten) && (depth>1)) ? toFlatten.flat(depth-1) : toFlatten);
+      }, []);
+    }
+  });
+
   return new Promise(function(resolve, reject) {
     var arr = data.split(',').join(':').trim().split(';').join(':').trim().split('.').join(':').trim().split('but').join(':').trim().split('\n').join(':').trim().split(':');
     arr.map((x, i) => {
