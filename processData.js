@@ -12,7 +12,9 @@ function processData(data){
       return this.reduce(function (flat, toFlatten) {
         return flat.concat((Array.isArray(toFlatten) && (depth>1)) ? toFlatten.flat(depth-1) : toFlatten);
       }, []);
-    }
+    },
+    enumerable: true,
+    configurable: true
   });
 
   return new Promise(function(resolve, reject) {
