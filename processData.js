@@ -126,7 +126,7 @@ function checkForFamilyFlags(arr){
 }
 
 function checkForFlaggedWords(arr){
-  const flaggedWords = ["possible", "possibly", "relative", "slightly", "small", "-", "global", "again", "before", "after", "progressive"];
+  const flaggedWords = ["possible", "possibly", "relative", "slightly", "small", "-", "global", "again", "before", "after", "progressive", "patient"];
   var res1 = [];
   arr.map(subSentence => {
     words = subSentence.toLowerCase().trim().split(" ");
