@@ -18,7 +18,7 @@ function processData(data){
   });
 
   return new Promise(function(resolve, reject) {
-    var arr = data.split(',').join(':').trim().split(';').join(':').trim().split('.').join(':').trim().split('but').join(':').trim().split('\n').join(':').trim().split(':');
+    var arr = data.split(',').join(':').trim().split(';').join(':').trim().split('.').join(':').trim().split('but').join(':').trim().split('of').join(':').trim().split('\n').join(':').trim().split(':');
     arr.map((x, i) => {
       if(x.includes("and")){
         if(x.includes("not") || x.includes("does not") || x.includes("doesn't")){

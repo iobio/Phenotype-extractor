@@ -10385,14 +10385,6 @@
    "ConceptID": "CN236463"
  },
  {
-   "DiseaseName": "ALG12-congenital disorder of glycosylation",
-   "ConceptID": "C2931001"
- },
- {
-   "DiseaseName": "ALG9 congenital disorder of glycosylation",
-   "ConceptID": "C2931006"
- },
- {
    "DiseaseName": "Al Gazali Hirschsprung syndrome",
    "ConceptID": "C1856110"
  },
@@ -25125,14 +25117,6 @@
    "ConceptID": "C0795900"
  },
  {
-   "DiseaseName": "COG1 congenital disorder of glycosylation",
-   "ConceptID": "C1970016"
- },
- {
-   "DiseaseName": "COG7 congenital disorder of glycosylation",
-   "ConceptID": "C2931010"
- },
- {
    "DiseaseName": "Cogan's syndrome",
    "ConceptID": "C0271270"
  },
@@ -26791,150 +26775,6 @@
  {
    "DiseaseName": "Congenital disorder of glycosylation",
    "ConceptID": "C0282577"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1B",
-   "ConceptID": "C1865145"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1C",
-   "ConceptID": "C2930997"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1D",
-   "ConceptID": "C1832736"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1E",
-   "ConceptID": "C1837396"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1F",
-   "ConceptID": "C1836669"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1H",
-   "ConceptID": "C2931002"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1I",
-   "ConceptID": "C1842836"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1J",
-   "ConceptID": "C2931004"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1K",
-   "ConceptID": "C2931005"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1M",
-   "ConceptID": "C1835849"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1N",
-   "ConceptID": "C2677590"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1O",
-   "ConceptID": "C2752007"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1P",
-   "ConceptID": "C3150913"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1Q",
-   "ConceptID": "C3150191"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1t",
-   "ConceptID": "C2752015"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1u",
-   "ConceptID": "C3554385"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1w",
-   "ConceptID": "C3810062"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1x",
-   "ConceptID": "C2931007"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 1y",
-   "ConceptID": "C4012395"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 2B",
-   "ConceptID": "C1853736"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 2C",
-   "ConceptID": "C0398739"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 2D",
-   "ConceptID": "C1846816"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 2F",
-   "ConceptID": "C1970344"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 2H",
-   "ConceptID": "C1970021"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 2i",
-   "ConceptID": "C3150876"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 2J",
-   "ConceptID": "C3150736"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 2k",
-   "ConceptID": "C3553571"
- },
- {
-   "DiseaseName": "Congenital disorder of glycosylation type 2L",
-   "ConceptID": "C3553230"
- },
- {
-   "DiseaseName": "CONGENITAL DISORDER OF GLYCOSYLATION, TYPE Iaa",
-   "ConceptID": "C4310727"
- },
- {
-   "DiseaseName": "CONGENITAL DISORDER OF GLYCOSYLATION, TYPE Ibb",
-   "ConceptID": "CN769091"
- },
- {
-   "DiseaseName": "CONGENITAL DISORDER OF GLYCOSYLATION, TYPE IIm",
-   "ConceptID": "C3806688"
- },
- {
-   "DiseaseName": "CONGENITAL DISORDER OF GLYCOSYLATION, TYPE IIn",
-   "ConceptID": "C4225234"
- },
- {
-   "DiseaseName": "CONGENITAL DISORDER OF GLYCOSYLATION, TYPE IIo",
-   "ConceptID": "C4225191"
- },
- {
-   "DiseaseName": "CONGENITAL DISORDER OF GLYCOSYLATION, TYPE IIp",
-   "ConceptID": "C4225190"
- },
- {
-   "DiseaseName": "CONGENITAL DISORDER OF GLYCOSYLATION, TYPE IIq",
-   "ConceptID": "C4479353"
- },
- {
-   "DiseaseName": "CONGENITAL DISORDER OF GLYCOSYLATION WITH DEFECTIVE FUCOSYLATION",
-   "ConceptID": "CN248517"
  },
  {
    "DiseaseName": "Congenital disorders of glycosylation type II",
@@ -77613,10 +77453,6 @@
    "ConceptID": "C0033117"
  },
  {
-   "DiseaseName": "Priapism",
-   "ConceptID": "C1867771"
- },
- {
    "DiseaseName": "Prieto X-linked mental retardation syndrome",
    "ConceptID": "C1839730"
  },
@@ -86601,28 +86437,8 @@
    "ConceptID": "C2237347"
  },
  {
-   "DiseaseName": "Sick sinus syndrome 1, autosomal recessive",
-   "ConceptID": "C1837845"
- },
- {
-   "DiseaseName": "Sick sinus syndrome 2, autosomal dominant",
-   "ConceptID": "C1834144"
- },
- {
-   "DiseaseName": "SICK SINUS SYNDROME 2 WITH CARDIAC NONCOMPACTION AND ASCENDING AORTA DILATION",
-   "ConceptID": "C4310906"
- },
- {
-   "DiseaseName": "Sick sinus syndrome 3, susceptibility to",
-   "ConceptID": "C3279791"
- },
- {
    "DiseaseName": "Sick sinus syndrome",
    "ConceptID": "C0037052"
- },
- {
-   "DiseaseName": "Sick sinus syndrome",
-   "ConceptID": "C1963235"
  },
  {
    "DiseaseName": "Siderius X-linked mental retardation syndrome",
@@ -97093,24 +96909,8 @@
    "ConceptID": "C0344954"
  },
  {
-   "DiseaseName": "Ventricular septal defect 1",
-   "ConceptID": "C3280777"
- },
- {
-   "DiseaseName": "Ventricular septal defect 2",
-   "ConceptID": "C3280783"
- },
- {
-   "DiseaseName": "Ventricular septal defect 3",
-   "ConceptID": "C3280785"
- },
- {
    "DiseaseName": "Ventricular septal defect",
    "ConceptID": "C0018818"
- },
- {
-   "DiseaseName": "Ventricular septal defect",
-   "ConceptID": "C1859213"
  },
  {
    "DiseaseName": "Ventricular tachycardia",
@@ -97329,44 +97129,8 @@
    "ConceptID": "C4280796"
  },
  {
-   "DiseaseName": "Vesicoureteral reflux 1",
-   "ConceptID": "CN032731"
- },
- {
-   "DiseaseName": "Vesicoureteral reflux 2",
-   "ConceptID": "C1970483"
- },
- {
-   "DiseaseName": "Vesicoureteral reflux 3",
-   "ConceptID": "C3150927"
- },
- {
-   "DiseaseName": "Vesicoureteral reflux 4",
-   "ConceptID": "C3280439"
- },
- {
-   "DiseaseName": "Vesicoureteral reflux 5",
-   "ConceptID": "C3280440"
- },
- {
-   "DiseaseName": "Vesicoureteral reflux 6",
-   "ConceptID": "C3280441"
- },
- {
-   "DiseaseName": "Vesicoureteral reflux 7",
-   "ConceptID": "C3809337"
- },
- {
-   "DiseaseName": "Vesicoureteral reflux 8",
-   "ConceptID": "C4014831"
- },
- {
    "DiseaseName": "Vesicoureteral reflux",
    "ConceptID": "C0042580"
- },
- {
-   "DiseaseName": "Vesicoureteral reflux, X-linked",
-   "ConceptID": "C1839114"
  },
  {
    "DiseaseName": "Vesicovaginal fistula",
@@ -97629,20 +97393,8 @@
    "ConceptID": "CN230163"
  },
  {
-   "DiseaseName": "Vitelliform macular dystrophy type 2",
-   "ConceptID": "C0339510"
- },
- {
-   "DiseaseName": "Vitiligo-associated multiple autoimmune disease susceptibility 1",
-   "ConceptID": "C1847835"
- },
- {
    "DiseaseName": "Vitiligo",
    "ConceptID": "C0042900"
- },
- {
-   "DiseaseName": "Vitiligo, progressive, with mental retardation and urethral duplication",
-   "ConceptID": "C1848532"
  },
  {
    "DiseaseName": "Vitreomacular adhesion",
@@ -97741,42 +97493,6 @@
    "ConceptID": "C0019562"
  },
  {
-   "DiseaseName": "Von Willebrand disease, recessive form",
-   "ConceptID": "C1848525"
- },
- {
-   "DiseaseName": "von Willebrand disease type 1",
-   "ConceptID": "C1264039"
- },
- {
-   "DiseaseName": "von Willebrand disease, type 2a",
-   "ConceptID": "C1282968"
- },
- {
-   "DiseaseName": "von Willebrand disease, type 2b",
-   "ConceptID": "C1282971"
- },
- {
-   "DiseaseName": "von Willebrand disease type 2",
-   "ConceptID": "C1264040"
- },
- {
-   "DiseaseName": "von Willebrand disease type 2M",
-   "ConceptID": "C1282974"
- },
- {
-   "DiseaseName": "von Willebrand disease type 2N",
-   "ConceptID": "C1282975"
- },
- {
-   "DiseaseName": "von Willebrand disease type 3",
-   "ConceptID": "C1264041"
- },
- {
-   "DiseaseName": "von Willebrand disease, X-linked form",
-   "ConceptID": "C1839113"
- },
- {
    "DiseaseName": "von Willebrand disorder",
    "ConceptID": "C0042974"
  },
@@ -97829,60 +97545,8 @@
    "ConceptID": "C2931197"
  },
  {
-   "DiseaseName": "Waardenburg syndrome 2 and ocular albinism, digenic",
-   "ConceptID": "C3149134"
- },
- {
    "DiseaseName": "Waardenburg syndrome",
    "ConceptID": "C3266898"
- },
- {
-   "DiseaseName": "Waardenburg syndrome type 1",
-   "ConceptID": "C1847800"
- },
- {
-   "DiseaseName": "Waardenburg syndrome type 2A",
-   "ConceptID": "C1860339"
- },
- {
-   "DiseaseName": "Waardenburg syndrome type 2B",
-   "ConceptID": "C1838447"
- },
- {
-   "DiseaseName": "Waardenburg syndrome type 2",
-   "ConceptID": "C2700265"
- },
- {
-   "DiseaseName": "Waardenburg syndrome type 2C",
-   "ConceptID": "C1847722"
- },
- {
-   "DiseaseName": "Waardenburg syndrome type 2D",
-   "ConceptID": "C1837203"
- },
- {
-   "DiseaseName": "Waardenburg syndrome type 2E",
-   "ConceptID": "C2700405"
- },
- {
-   "DiseaseName": "Waardenburg syndrome type 2E, with neurologic involvement",
-   "ConceptID": "CN069053"
- },
- {
-   "DiseaseName": "Waardenburg syndrome type 2E, without neurologic involvement",
-   "ConceptID": "CN069052"
- },
- {
-   "DiseaseName": "Waardenburg syndrome type 4A",
-   "ConceptID": "C1848519"
- },
- {
-   "DiseaseName": "Waardenburg syndrome type 4B",
-   "ConceptID": "C2750457"
- },
- {
-   "DiseaseName": "Waardenburg syndrome type 4C",
-   "ConceptID": "C2750452"
  },
  {
    "DiseaseName": "Waddling gait",
@@ -98409,38 +98073,6 @@
    "ConceptID": "C0175702"
  },
  {
-   "DiseaseName": "Wilms tumor 1",
-   "ConceptID": "CN033288"
- },
- {
-   "DiseaseName": "Wilms tumor 2",
-   "ConceptID": "C0694899"
- },
- {
-   "DiseaseName": "Wilms tumor 3",
-   "ConceptID": "C1860265"
- },
- {
-   "DiseaseName": "Wilms tumor 4",
-   "ConceptID": "C1832426"
- },
- {
-   "DiseaseName": "Wilms tumor 6",
-   "ConceptID": "C3891301"
- },
- {
-   "DiseaseName": "Wilms tumor and radial bilateral aplasia",
-   "ConceptID": "C1832099"
- },
- {
-   "DiseaseName": "Wilms tumor, aniridia, genitourinary anomalies, and mental retardation syndrome",
-   "ConceptID": "C0206115"
- },
- {
-   "DiseaseName": "Wilms tumor, aniridia, genitourinary anomalies, mental retardation, and obesity syndrome",
-   "ConceptID": "C2675904"
- },
- {
    "DiseaseName": "Wilms Tumor",
    "ConceptID": "CN244940"
  },
@@ -98463,18 +98095,6 @@
  {
    "DiseaseName": "Winship Viljoen Leary syndrome",
    "ConceptID": "C1855080"
- },
- {
-   "DiseaseName": "Wiskott-Aldrich syndrome 2",
-   "ConceptID": "C3281001"
- },
- {
-   "DiseaseName": "Wiskott-Aldrich syndrome, attenuated",
-   "ConceptID": "C4016481"
- },
- {
-   "DiseaseName": "Wiskott-Aldrich syndrome, autosomal dominant form",
-   "ConceptID": "C1833170"
  },
  {
    "DiseaseName": "Wiskott-Aldrich syndrome",
@@ -98501,36 +98121,16 @@
    "ConceptID": "C1963282"
  },
  {
-   "DiseaseName": "Wolff-Parkinson-White syndrome, childhood-onset",
-   "ConceptID": "C4016809"
- },
- {
    "DiseaseName": "Wolfram-like syndrome, autosomal dominant",
    "ConceptID": "C3280358"
- },
- {
-   "DiseaseName": "Wolfram syndrome 2",
-   "ConceptID": "C1858028"
  },
  {
    "DiseaseName": "Wolfram syndrome",
    "ConceptID": "CN184630"
  },
  {
-   "DiseaseName": "Wolfram Syndrome-Like Disease",
-   "ConceptID": "CN230136"
- },
- {
-   "DiseaseName": "Wolfram syndrome, mitochondrial form",
-   "ConceptID": "C1838782"
- },
- {
    "DiseaseName": "Wolman disease",
    "ConceptID": "CN438428"
- },
- {
-   "DiseaseName": "Wolman disease with hypolipoproteinemia and acanthocytosis",
-   "ConceptID": "C1848436"
  },
  {
    "DiseaseName": "Woods Black Norbury syndrome",
@@ -98543,10 +98143,6 @@
  {
    "DiseaseName": "Woolly hair, autosomal dominant",
    "ConceptID": "C1860238"
- },
- {
-   "DiseaseName": "Woolly hair, autosomal recessive 2, with or without hypotrichosis",
-   "ConceptID": "C3148823"
  },
  {
    "DiseaseName": "Woolly scalp hair",
@@ -98621,20 +98217,12 @@
    "ConceptID": "C0220988"
  },
  {
-   "DiseaseName": "Xanthinuria type 2",
-   "ConceptID": "C1863688"
- },
- {
    "DiseaseName": "Xanthomas of the palmar creases",
    "ConceptID": "C4476834"
  },
  {
    "DiseaseName": "Xanthomatosis",
    "ConceptID": "C0043325"
- },
- {
-   "DiseaseName": "Xanthomatosis, susceptibility to",
-   "ConceptID": "C1865704"
  },
  {
    "DiseaseName": "X chromosome deletion/duplication",
@@ -98901,20 +98489,8 @@
    "ConceptID": "C2752047"
  },
  {
-   "DiseaseName": "Zellweger syndrome 2",
-   "ConceptID": "CN069919"
- },
- {
    "DiseaseName": "Zellweger syndrome",
    "ConceptID": "C0043459"
- },
- {
-   "DiseaseName": "Zimmermann-Laband syndrome 1",
-   "ConceptID": "CN032818"
- },
- {
-   "DiseaseName": "Zimmermann-Laband syndrome 2",
-   "ConceptID": "C4225321"
  },
  {
    "DiseaseName": "Zimmermann-Laband syndrome",
@@ -98947,10 +98523,6 @@
  {
    "DiseaseName": "Zonular cataract",
    "ConceptID": "C1861821"
- },
- {
-   "DiseaseName": "Zonular pulverulent cataract 3",
-   "ConceptID": "C1866078"
  },
  {
    "DiseaseName": "Zonular Pulverulent Cataract",
