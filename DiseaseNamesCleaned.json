@@ -26765,10 +26765,6 @@
    "ConceptID": "C1840644"
  },
  {
-   "DiseaseName": "Congenital diarrhea",
-   "ConceptID": "CN232319"
- },
- {
    "DiseaseName": "Congenital disorder of deglycosylation",
    "ConceptID": "C3808991"
  },
@@ -26911,10 +26907,6 @@
  {
    "DiseaseName": "Congenital glucose-galactose malabsorption",
    "ConceptID": "C0268186"
- },
- {
-   "DiseaseName": "Congenital goiter",
-   "ConceptID": "C0349476"
  },
  {
    "DiseaseName": "Congenital healed cleft lip",
