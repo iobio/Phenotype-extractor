@@ -18,17 +18,14 @@ function processData(data){
   });
 
   return new Promise(function(resolve, reject) {
-    console.log("data", data)
     data = data.replace(/\bbut\b/gi, ';' );
     var arr = data.split(',').join(':').trim().split(';').join(':').trim()
                   .split('.').join(':').trim()
                   .split('\n').join(':').trim().split(':');
                   // .split('of').join(':').trim()
                   // .split('but').join(':').trim()
-    console.log("arr", arr);
 
     arr.map((x, i) => {
-      console.log("x", x)
       if(/\band\b/gi.test('x')){
         if(/\bnot\b/gi.test('x') || /\bdoes not\b/gi.test('x')  || /\bdoesn't\b/gi.test('x') || /\bdon't\b/gi.test('x')  ){
           arr[i] = x.split('and')
@@ -39,10 +36,7 @@ function processData(data){
 
     res = checkForNegativeFlags(arr)
     res1 = checkForFamilyFlags(res);
-    console.log("res1", res1);
     res2 = checkForFlaggedWords(res1);
-    console.log("res2", res2);
-
 
     var results = [];
     var fuzzyResults = [];
@@ -50,11 +44,11 @@ function processData(data){
     for(var i=0; i<res2.length; i++){
       for(var j=0; j<DiseaseNames.data.length; j++){
         var sentence = res2[i].replace(/-/g, " ").replace(/\s\s+/g, ' ').toLowerCase().trim();
-        sentence = sentence.replace("disease", "");
-        sentence = sentence.replace("syndrome", "");
+        sentence = sentence.replace(/\bdisease\b$/gi, "").replace(/\bsyndrome\b$/gi, ""); //Replaces syndrome or dieases at the end of the word.
+
         var condition = DiseaseNames.data[j].DiseaseName.replace(/-/g, " ").replace(/\s\s+/g, ' ').toLowerCase().trim();
-        condition = condition.replace("disease", "");
-        condition = condition.replace("syndrome", "");
+        condition = condition.replace(/\bdisease\b$/gi, "").replace(/\bsyndrome\b$/gi, "");
+
         sentence = sentence.replace(/\btof\b/gi, 'tetralogy of fallot')
                            .replace(/\bdd\b/gi, 'developmental delay')
                            .replace(/\bmpph\b/gi, 'megalencephaly polymicrogyria polydactyly hydrocephalus')
