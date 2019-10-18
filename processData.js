@@ -18,6 +18,7 @@ function processData(data){
   });
 
   return new Promise(function(resolve, reject) {
+    console.log("data", data)
     data = data.replace(/\bbut\b/gi, ';' );
     var arr = data.split(',').join(':').trim().split(';').join(':').trim()
                   .split('.').join(':').trim()
@@ -27,8 +28,9 @@ function processData(data){
     console.log("arr", arr);
 
     arr.map((x, i) => {
-      if(x.includes("and")){
-        if(x.includes("not") || x.includes("does not") || x.includes("doesn't")){
+      console.log("x", x)
+      if(/\band\b/gi.test('x')){
+        if(/\bnot\b/gi.test('x') || /\bdoes not\b/gi.test('x')  || /\bdoesn't\b/gi.test('x') || /\bdon't\b/gi.test('x')  ){
           arr[i] = x.split('and')
         }
       }
