@@ -18,12 +18,22 @@ function processData(data){
   });
 
   return new Promise(function(resolve, reject) {
+    console.log("data", data)
+    data = data.replace(/\bbut\b/gi, ';' );
     var arr = data.split(',').join(':').trim().split(';').join(':').trim()
-                  .split('.').join(':').trim().split('but').join(':').trim()
+                  .split('.').join(':').trim()
                   .split('\n').join(':').trim().split(':');
                   // .split('of').join(':').trim()
+                  // .split('but').join(':').trim()
+    console.log("arr", arr);
 
     arr.map((x, i) => {
+      console.log("x", x)
+      // if(/\band\b/gi.test('x')){
+      //   if(/\bnot\b/gi.test('x') || /\bdoes not\b/gi.test('x')  || /\bdoesn't\b/gi.test('x') || /\bdon't\b/gi.test('x')  ){
+      //     arr[i] = x.split('and')
+      //   }
+      // }
       if(x.includes("and")){
         if(x.includes("not") || x.includes("does not") || x.includes("doesn't")){
           arr[i] = x.split('and')
@@ -36,7 +46,7 @@ function processData(data){
     res1 = checkForFamilyFlags(res);
     console.log("res1", res1);
     res2 = checkForFlaggedWords(res1);
-    console.log("res1", res2);
+    console.log("res2", res2);
 
 
     var results = [];
@@ -50,19 +60,23 @@ function processData(data){
         var condition = DiseaseNames.data[j].DiseaseName.replace(/-/g, " ").replace(/\s\s+/g, ' ').toLowerCase().trim();
         condition = condition.replace("disease", "");
         condition = condition.replace("syndrome", "");
-        if(sentence === "tof"){
-          sentence = "tetralogy of fallot"
-        }
-        else if(sentence === "dd"){
-          sentence = "developmental delay"
-        }
-        else if(sentence === "mpph"){
-          sentence = "megalencephaly polymicrogyria polydactyly hydrocephalus"
-        }
-        else if(sentence === "CDG"){
-          sentence = "Congenital disorder of glycosylation"
-        }
-        //TODO: Find exact word match in the sentence using boundaries of regex and then replace. 
+        sentence = sentence.replace(/\btof\b/gi, 'tetralogy of fallot')
+                           .replace(/\bdd\b/gi, 'developmental delay')
+                           .replace(/\bmpph\b/gi, 'megalencephaly polymicrogyria polydactyly hydrocephalus')
+                           .replace(/\bCDG\b/gi, 'Congenital disorder of glycosylation')
+        // if(sentence === "tof"){
+        //   sentence = "tetralogy of fallot"
+        // }
+        // if(sentence === "dd"){
+        //   sentence = "developmental delay"
+        // }
+        // else if(sentence === "mpph"){
+        //   sentence = "megalencephaly polymicrogyria polydactyly hydrocephalus"
+        // }
+        // else if(sentence === "CDG"){
+        //   sentence = "Congenital disorder of glycosylation"
+        // }
+        //TODO: Find exact word match in the sentence using boundaries of regex and then replace.
         // if(sentence === "hypotonia" || sentence === "epilepsy" || sentence === "joint contracture"){
         //   if(!results.includes(sentence)){
         //     results.push(sentence);
