@@ -18,7 +18,11 @@ function processData(data){
   });
 
   return new Promise(function(resolve, reject) {
-    var arr = data.split(',').join(':').trim().split(';').join(':').trim().split('.').join(':').trim().split('but').join(':').trim().split('of').join(':').trim().split('\n').join(':').trim().split(':');
+    var arr = data.split(',').join(':').trim().split(';').join(':').trim()
+                  .split('.').join(':').trim().split('but').join(':').trim()
+                  .split('\n').join(':').trim().split(':');
+                  // .split('of').join(':').trim()
+
     arr.map((x, i) => {
       if(x.includes("and")){
         if(x.includes("not") || x.includes("does not") || x.includes("doesn't")){
@@ -30,10 +34,14 @@ function processData(data){
 
     res = checkForNegativeFlags(arr)
     res1 = checkForFamilyFlags(res);
+    console.log("res1", res1);
     res2 = checkForFlaggedWords(res1);
+    console.log("res1", res2);
+
 
     var results = [];
     var fuzzyResults = [];
+    var LevenshteinResults = [];
     for(var i=0; i<res2.length; i++){
       for(var j=0; j<DiseaseNames.data.length; j++){
         var sentence = res2[i].replace(/-/g, " ").replace(/\s\s+/g, ' ').toLowerCase().trim();
@@ -51,18 +59,29 @@ function processData(data){
         else if(sentence === "mpph"){
           sentence = "megalencephaly polymicrogyria polydactyly hydrocephalus"
         }
-        if(sentence === "hypotonia" || sentence === "epilepsy" || sentence === "joint contracture"){
-          if(!results.includes(sentence)){
-            results.push(sentence);
-          }
+        else if(sentence === "CDG"){
+          sentence = "Congenital disorder of glycosylation"
         }
-        else if(sentence.length>= condition.length){
+        //TODO: Find exact word match in the sentence using boundaries of regex and then replace. 
+        // if(sentence === "hypotonia" || sentence === "epilepsy" || sentence === "joint contracture"){
+        //   if(!results.includes(sentence)){
+        //     results.push(sentence);
+        //   }
+        // }
+        if(sentence.length>= condition.length){
           if(condition!== "disease" && condition!== "Disease" && condition.length>2 ){
             if(sentence.includes(condition) || natural.JaroWinklerDistance(sentence, condition) > 0.9){
               if(!results.includes(DiseaseNames.data[j].DiseaseName) ){
 
                 if(natural.JaroWinklerDistance(sentence, condition) > 0.88){
                   results.push(DiseaseNames.data[j].DiseaseName);
+                }
+
+                var LevenshteinFormula = natural.LevenshteinDistance(condition, sentence, {search: true});
+                var LevenshteinFormulaDistance = LevenshteinFormula.distance;
+
+                if(LevenshteinFormulaDistance<=1){
+                  LevenshteinResults.push(DiseaseNames.data[j].DiseaseName);
                 }
 
                 var a = FuzzySet();
@@ -85,6 +104,14 @@ function processData(data){
                   results.push(DiseaseNames.data[j].DiseaseName);
                 }
 
+                var LevenshteinFormula = natural.LevenshteinDistance(sentence, condition, {search: true});
+                var LevenshteinFormulaDistance = LevenshteinFormula.distance;
+
+                if(LevenshteinFormulaDistance<=2){
+                  LevenshteinResults.push(DiseaseNames.data[j].DiseaseName);
+                }
+
+
                 var a = FuzzySet();
                 a.add(sentence);
                 if(a.get(condition)!== null && a.get(condition)[0][0]> 0.86){
@@ -98,7 +125,7 @@ function processData(data){
         }
       }
     }
-    resolve({JaroWinkler:results, fuzzyResults: fuzzyResults })
+    resolve({JaroWinkler:results, fuzzyResults: fuzzyResults, LevenshteinResults:LevenshteinResults })
   });
 }
 
@@ -126,7 +153,7 @@ function checkForFamilyFlags(arr){
 }
 
 function checkForFlaggedWords(arr){
-  const flaggedWords = ["possible", "possibly", "relative", "slightly", "small", "-", "global", "again", "before", "after", "progressive", "patient"];
+  const flaggedWords = ["possible", "possibly", "relative", "small", "-", "global", "again", "before", "after", "patient", "ha"];
   var res1 = [];
   arr.map(subSentence => {
     words = subSentence.toLowerCase().trim().split(" ");
