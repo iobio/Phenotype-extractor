@@ -26,8 +26,8 @@ function processData(data){
                   // .split('but').join(':').trim()
 
     arr.map((x, i) => {
-      if(/\band\b/gi.test('x')){
-        if(/\bnot\b/gi.test('x') || /\bdoes not\b/gi.test('x')  || /\bdoesn't\b/gi.test('x') || /\bdon't\b/gi.test('x')  ){
+      if(/\band\b/gi.test(x)){
+        if(/\bnot\b/gi.test(x) || /\bdoes not\b/gi.test(x)  || /\bdoesn't\b/gi.test(x) || /\bdon't\b/gi.test(x)  ){
           arr[i] = x.split('and')
         }
       }

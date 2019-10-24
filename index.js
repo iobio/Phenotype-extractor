@@ -25,7 +25,9 @@ app.get('/phenotype-extractor', (req, res) => {
 
   pythonProcess.stdout.on('data', (data) => {
     var decoder = new util.TextDecoder('utf-8');
-    var decodedData = decoder.decode(data)
+    var decodedData = decoder.decode(data);
+    console.log("decodedData", decodedData)
+
     var processedData = processData(decodedData);
     processedData.then(data => {
       console.log(data);
