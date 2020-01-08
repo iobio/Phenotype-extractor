@@ -6,7 +6,7 @@ var FuzzySet = require('fuzzyset.js');
 
 
 function processData(data){
-  console.log("data in processData")
+  // console.log("data in processData")
   Object.defineProperty(Array.prototype, 'flat', {
     value: function(depth = 1) {
       return this.reduce(function (flat, toFlatten) {
@@ -24,7 +24,7 @@ function processData(data){
                   .split('\n').join(':').trim().split(':');
                   // .split('of').join(':').trim()
                   // .split('but').join(':').trim()
-
+    // console.log("Arr", arr)
     arr.map((x, i) => {
       if(/\band\b/gi.test(x)){
         if(/\bnot\b/gi.test(x) || /\bdoes not\b/gi.test(x)  || /\bdoesn't\b/gi.test(x) || /\bdon't\b/gi.test(x)  ){
@@ -33,11 +33,12 @@ function processData(data){
       }
     })
     arr = arr.flat();
+    // console.log("Arr again", arr)
 
     res = checkForNegativeFlags(arr)
     res1 = checkForFamilyFlags(res);
     res2 = checkForFlaggedWords(res1);
-
+    // console.log("res2", res2)
     var results = [];
     var fuzzyResults = [];
     var LevenshteinResults = [];
@@ -144,7 +145,7 @@ function checkForFamilyFlags(arr){
 }
 
 function checkForFlaggedWords(arr){
-  const flaggedWords = ["possible", "possibly", "relative", "small", "-", "global", "again", "before", "after", "patient", "ha"];
+  const flaggedWords = ["possible", "possibly", "relative", "small", "-", "global", "again", "before", "after", "patient", "ha", "the", "that"];
   var res1 = [];
   arr.map(subSentence => {
     words = subSentence.toLowerCase().trim().split(" ");

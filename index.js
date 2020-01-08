@@ -20,13 +20,13 @@ const util= require('util');
 // Example url: /phenotype-extractor/?notes=Progressive%20neurologic%20disease,%20intractable%20seizures,%20hypotonia,%20profound%20global%20and%20growth%20delays,%20possible%20infantile%20spasms,%20possibly%20epilepsy%20or%20encephalopathic%20syndrome
 app.get('/phenotype-extractor', (req, res) => {
   var notes = req.query.notes;
-
+  console.log("notes: ", notes)
   const pythonProcess = spawn('python',['./lemmet.py', notes]);
 
   pythonProcess.stdout.on('data', (data) => {
     var decoder = new util.TextDecoder('utf-8');
     var decodedData = decoder.decode(data);
-    console.log("decodedData", decodedData)
+    console.log("decodedData: ", decodedData)
 
     var processedData = processData(decodedData);
     processedData.then(data => {
