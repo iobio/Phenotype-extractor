@@ -24,10 +24,12 @@ fs.readFile(fileName, 'utf-8', ((err, data) => {
   runPhenotypeExtractor(data);
 }));
 
-
+console.log(__dirname)
 function runPhenotypeExtractor(notes){
   console.log("inside runPhenotypeExtractor...")
-  const pythonProcess = spawn('python',['./lemmet.py', notes]);
+  var pathToFile = `${__dirname}/lemmet.py`;
+  console.log("pathToFile", pathToFile)
+  const pythonProcess = spawn('python',[pathToFile, notes]);
 
   pythonProcess.stdout.on('data', (data) => {
     var decoder = new util.TextDecoder('utf-8');
