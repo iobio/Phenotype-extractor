@@ -17,8 +17,10 @@ const args = process.argv.slice(2)
 var fileName = args[0];
 
 console.log("Initiating phenotype extraction...")
+console.log("file name is: ", fileName);
 
 fs.readFile(fileName, 'utf-8', ((err, data) => {
+  console.log("data in file is: ", data)
   runPhenotypeExtractor(data);
 }));
 
@@ -29,7 +31,7 @@ function runPhenotypeExtractor(notes){
   pythonProcess.stdout.on('data', (data) => {
     var decoder = new util.TextDecoder('utf-8');
     var decodedData = decoder.decode(data);
-
+    console.log("data after running python script: ", decodedData)
     var processedData = processData(decodedData);
     processedData.then(data => {
       console.log(data)
