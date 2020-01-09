@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 const fs = require('fs');
 
 const extractor = require('./extractor');
@@ -16,25 +15,18 @@ const args = process.argv.slice(2)
 
 var fileName = args[0];
 
-console.log("Initiating phenotype extraction...")
-console.log("file name is: ", fileName);
 
 fs.readFile(fileName, 'utf-8', ((err, data) => {
-  console.log("data in file is: ", data)
   runPhenotypeExtractor(data);
 }));
 
-console.log(__dirname)
 function runPhenotypeExtractor(notes){
-  console.log("inside runPhenotypeExtractor...")
   var pathToFile = `${__dirname}/lemmet.py`;
-  console.log("pathToFile", pathToFile)
   const pythonProcess = spawn('python',[pathToFile, notes]);
 
   pythonProcess.stdout.on('data', (data) => {
     var decoder = new util.TextDecoder('utf-8');
     var decodedData = decoder.decode(data);
-    console.log("data after running python script: ", decodedData)
     var processedData = processData(decodedData);
     processedData.then(data => {
       console.log(data)
