@@ -16,6 +16,8 @@ const args = process.argv.slice(2)
 
 var fileName = args[0];
 
+console.log("Initiating phenotype extraction...")
+
 fs.readFile(fileName, 'utf-8', ((err, data) => {
   runPhenotypeExtractor(data);
 }));
