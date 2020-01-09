@@ -26,6 +26,7 @@ fs.readFile(fileName, 'utf-8', ((err, data) => {
 
 
 function runPhenotypeExtractor(notes){
+  console.log("inside runPhenotypeExtractor...")
   const pythonProcess = spawn('python',['./lemmet.py', notes]);
 
   pythonProcess.stdout.on('data', (data) => {
