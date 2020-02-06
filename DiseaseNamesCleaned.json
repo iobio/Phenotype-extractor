@@ -1669,18 +1669,6 @@
    "ConceptID": "C4025246"
  },
  {
-   "DiseaseName": "Abnormality of cardiovascular system electrophysiology",
-   "ConceptID": "C4476872"
- },
- {
-   "DiseaseName": "Abnormality of cardiovascular system morphology",
-   "ConceptID": "C4049796"
- },
- {
-   "DiseaseName": "Abnormality of cardiovascular system physiology",
-   "ConceptID": "C4023587"
- },
- {
    "DiseaseName": "Abnormality of carnitine metabolism",
    "ConceptID": "C4020761"
  },
@@ -3473,10 +3461,6 @@
    "ConceptID": "CN001520"
  },
  {
-   "DiseaseName": "Abnormality of the cardiovascular system",
-   "ConceptID": "C0243050"
- },
- {
    "DiseaseName": "Abnormality of the carpal bones",
    "ConceptID": "C1840535"
  },
@@ -4067,10 +4051,6 @@
  {
    "DiseaseName": "Abnormality of the femoral neck or head region",
    "ConceptID": "C4025622"
- },
- {
-   "DiseaseName": "Abnormality of the fetal cardiovascular system",
-   "ConceptID": "C4021210"
  },
  {
    "DiseaseName": "Abnormality of the fifth cranial nerve",
@@ -9441,10 +9421,6 @@
    "ConceptID": "C1332182"
  },
  {
-   "DiseaseName": "Adult hypophosphatasia",
-   "ConceptID": "C0268413"
- },
- {
    "DiseaseName": "ADULT i BLOOD GROUP PHENOTYPE",
    "ConceptID": "C1292164"
  },
@@ -9961,10 +9937,6 @@
    "ConceptID": "CN239169"
  },
  {
-   "DiseaseName": "AIP-Related Familial Isolated Pituitary Adenomas",
-   "ConceptID": "CN169290"
- },
- {
    "DiseaseName": "Akinesia",
    "ConceptID": "C0085623"
  },
@@ -10161,12 +10133,8 @@
    "ConceptID": "C1527304"
  },
  {
-   "DiseaseName": "Allergy/Immunologic/Infectious (adult onset)",
-   "ConceptID": "CN232462"
- },
- {
-   "DiseaseName": "Allergy/Immunologic/Infectious (child onset)",
-   "ConceptID": "CN232532"
+   "DiseaseName": "Allergy/Immunologic/Infectious",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Alloalbuminemia",
@@ -11577,10 +11545,6 @@
    "ConceptID": "C1862843"
  },
  {
-   "DiseaseName": "Anonychia-onychodystrophy with brachydactyly type B and ectrodactyly",
-   "ConceptID": "C1862842"
- },
- {
    "DiseaseName": "Anonychia-onychodystrophy with hypoplasia or absence of distal phalanges",
    "ConceptID": "C1862841"
  },
@@ -11751,10 +11715,6 @@
  {
    "DiseaseName": "Anterior encephalocele",
    "ConceptID": "C4024948"
- },
- {
-   "DiseaseName": "Anterior hypopituitarism",
-   "ConceptID": "C4025821"
  },
  {
    "DiseaseName": "Anterior lenticonus",
@@ -13781,10 +13741,6 @@
    "ConceptID": "C3554415"
  },
  {
-   "DiseaseName": "Arthrogryposis, distal, with hypopituitarism, mental retardation, and facial anomalies",
-   "ConceptID": "C1859724"
- },
- {
    "DiseaseName": "Arthrogryposis, distal, with impaired proprioception and touch",
    "ConceptID": "C4310692"
  },
@@ -13897,20 +13853,16 @@
    "ConceptID": "C0003962"
  },
  {
-   "DiseaseName": "ASD   Cardiovascular (child onset)",
-   "ConceptID": "CN232481"
- },
- {
    "DiseaseName": "ASD",
    "ConceptID": "CN232550"
  },
  {
-   "DiseaseName": "ASD   Craniofacial (child onset)",
-   "ConceptID": "CN232482"
+   "DiseaseName": "ASD  Craniofacial",
+   "ConceptID": ""
  },
  {
-   "DiseaseName": "ASD   Musculoskeletal/Structural (child onset)",
-   "ConceptID": "CN232483"
+   "DiseaseName": "ASD  Musculoskeletal/Structural",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Aseptic leukocyturia",
@@ -14601,18 +14553,6 @@
    "ConceptID": "C4023312"
  },
  {
-   "DiseaseName": "Atrial standstill 1",
-   "ConceptID": "C1838539"
- },
- {
-   "DiseaseName": "Atrial standstill 1, digenic",
-   "ConceptID": "C4016652"
- },
- {
-   "DiseaseName": "Atrial standstill 2",
-   "ConceptID": "C3810401"
- },
- {
    "DiseaseName": "Atrial standstill",
    "ConceptID": "C0541782"
  },
@@ -14623,10 +14563,6 @@
  {
    "DiseaseName": "Atrichia with papular lesions",
    "ConceptID": "C1859592"
- },
- {
-   "DiseaseName": "Atrioventricular block",
-   "ConceptID": "C0004245"
  },
  {
    "DiseaseName": "Atrioventricular block",
@@ -14889,16 +14825,8 @@
    "ConceptID": "C1266184"
  },
  {
-   "DiseaseName": "Audiologic/Otolaryngologic (adult onset)",
-   "ConceptID": "CN235928"
- },
- {
-   "DiseaseName": "  Audiologic/Otolaryngologic (child onset)",
-   "ConceptID": "CN232491"
- },
- {
-   "DiseaseName": "Audiologic/Otolaryngologic (child onset)",
-   "ConceptID": "CN232533"
+   "DiseaseName": "Audiologic/Otolaryngologic",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Auditory acuity",
@@ -15471,10 +15399,6 @@
  {
    "DiseaseName": "Autosomal recessive spondylocostal dysostosis",
    "ConceptID": "CN043670"
- },
- {
-   "DiseaseName": "Autosomal recessive spondyloepimetaphyseal dysplasia",
-   "ConceptID": "C0432213"
  },
  {
    "DiseaseName": "Autosomal recessive syndrome of syndactyly, undescended testes and central nervous system defects",
@@ -16915,10 +16839,6 @@
  {
    "DiseaseName": "Bilateral squint",
    "ConceptID": "CN228276"
- },
- {
-   "DiseaseName": "bilateral striatal necrosis",
-   "ConceptID": "C4013993"
  },
  {
    "DiseaseName": "Bilateral superior vena cava with bridging vein",
@@ -20097,32 +20017,8 @@
    "ConceptID": "C1859327"
  },
  {
-   "DiseaseName": "  Cardiovascular (adult onset)",
-   "ConceptID": "CN232459"
- },
- {
-   "DiseaseName": "Cardiovascular (adult onset)",
-   "ConceptID": "CN232463"
- },
- {
-   "DiseaseName": "Cardiovascular calcification",
-   "ConceptID": "C4023128"
- },
- {
-   "DiseaseName": "  Cardiovascular (child onset)",
-   "ConceptID": "CN232503"
- },
- {
-   "DiseaseName": "Cardiovascular (child onset)",
-   "ConceptID": "CN232535"
- },
- {
-   "DiseaseName": "Cardiovascular Diseases",
-   "ConceptID": "CN236672"
- },
- {
-   "DiseaseName": "Cardiovascular phenotype",
-   "ConceptID": "CN230736"
+   "DiseaseName": "Cardiovascular",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Car factor deficiency",
@@ -21145,10 +21041,6 @@
    "ConceptID": "C1859283"
  },
  {
-   "DiseaseName": "Cerebral arteriopathy, autosomal dominant, with subcortical infarcts and leukoencephalopathy, type 2",
-   "ConceptID": "C4225211"
- },
- {
    "DiseaseName": "Cerebral arteriovenous malformation",
    "ConceptID": "C0917804"
  },
@@ -21167,14 +21059,6 @@
  {
    "DiseaseName": "Cerebral atrophy",
    "ConceptID": "C4020860"
- },
- {
-   "DiseaseName": "Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy",
-   "ConceptID": "C0751587"
- },
- {
-   "DiseaseName": "Cerebral autosomal recessive arteriopathy with subcortical infarcts and leukoencephalopathy",
-   "ConceptID": "C1838577"
  },
  {
    "DiseaseName": "Cerebral berry aneurysm",
@@ -21829,10 +21713,6 @@
    "ConceptID": "C0279606"
  },
  {
-   "DiseaseName": "Childhood hypophosphatasia",
-   "ConceptID": "C0220743"
- },
- {
    "DiseaseName": "Childhood Myocerebrohepatopathy Spectrum Disorders",
    "ConceptID": "CN169379"
  },
@@ -22101,10 +21981,6 @@
    "ConceptID": "C3279757"
  },
  {
-   "DiseaseName": "Chondrodysplasia with platyspondyly, distinctive brachydactyly, hydrocephaly, and microphthalmia",
-   "ConceptID": "C3275476"
- },
- {
    "DiseaseName": "Chondroectodermal dysplasia",
    "ConceptID": "C0013903"
  },
@@ -22313,10 +22189,6 @@
    "ConceptID": "C2678194"
  },
  {
-   "DiseaseName": "CHRNA1-Related Congenital Myasthenic Syndrome",
-   "ConceptID": "CN119608"
- },
- {
    "DiseaseName": "Chromate resistance",
    "ConceptID": "C1861559"
  },
@@ -22367,10 +22239,6 @@
  {
    "DiseaseName": "Chromosome 10, trisomy 10pter p13",
    "ConceptID": "CN036182"
- },
- {
-   "DiseaseName": "Chromosome 10, uniparental disomy of",
-   "ConceptID": "CN035866"
  },
  {
    "DiseaseName": "Chromosome 11;14 translocation",
@@ -22589,10 +22457,6 @@
    "ConceptID": "CN036499"
  },
  {
-   "DiseaseName": "Chromosome 16, uniparental disomy",
-   "ConceptID": "C2931712"
- },
- {
    "DiseaseName": "Chromosome 17, deletion 17q23 q24",
    "ConceptID": "CN036481"
  },
@@ -22773,10 +22637,6 @@
    "ConceptID": "CN036635"
  },
  {
-   "DiseaseName": "Chromosome 1, uniparental disomy 1q12 q21",
-   "ConceptID": "CN035970"
- },
- {
    "DiseaseName": "Chromosome 20, deletion 20p",
    "ConceptID": "CN036364"
  },
@@ -22799,10 +22659,6 @@
  {
    "DiseaseName": "Chromosome 21, tetrasomy 21q",
    "ConceptID": "C0795877"
- },
- {
-   "DiseaseName": "Chromosome 21, uniparental disomy of",
-   "ConceptID": "C2931324"
  },
  {
    "DiseaseName": "Chromosome 22, monosome mosaic",
@@ -23035,10 +22891,6 @@
  {
    "DiseaseName": "Chromosome 5, trisomy 5q",
    "ConceptID": "C1802398"
- },
- {
-   "DiseaseName": "Chromosome 5, uniparental disomy",
-   "ConceptID": "CN036636"
  },
  {
    "DiseaseName": "Chromosome 6, deletion 6q13 q15",
@@ -23391,10 +23243,6 @@
  {
    "DiseaseName": "Chronic kidney disease",
    "ConceptID": "C0748318"
- },
- {
-   "DiseaseName": "Chronic lactic acidosis",
-   "ConceptID": "C1839437"
  },
  {
    "DiseaseName": "Chronic leukemia",
@@ -23989,10 +23837,6 @@
    "ConceptID": "C1838416"
  },
  {
-   "DiseaseName": "Cleidocranial dysplasia, forme fruste, with brachydactyly",
-   "ConceptID": "C1861516"
- },
- {
    "DiseaseName": "Cleidocranial dysplasia recessive form",
    "ConceptID": "C1859080"
  },
@@ -24511,10 +24355,6 @@
  {
    "DiseaseName": "Coloboma of macula and skeletal anomalies",
    "ConceptID": "C1857619"
- },
- {
-   "DiseaseName": "Coloboma of macula with type B brachydactyly",
-   "ConceptID": "C1852752"
  },
  {
    "DiseaseName": "Coloboma of optic disc",
@@ -26237,10 +26077,6 @@
    "ConceptID": "C0268179"
  },
  {
-   "DiseaseName": "Congenital lactic acidosis",
-   "ConceptID": "C4025276"
- },
- {
    "DiseaseName": "Congenital laryngeal abductor palsy",
    "ConceptID": "C0396059"
  },
@@ -27625,8 +27461,8 @@
    "ConceptID": "C4025320"
  },
  {
-   "DiseaseName": "Craniofacial (child onset)",
-   "ConceptID": "CN232536"
+   "DiseaseName": "Craniofacial",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Craniofacial deafness hand syndrome",
@@ -31257,14 +31093,6 @@
    "ConceptID": "C0011320"
  },
  {
-   "DiseaseName": "  Dental (child onset)",
-   "ConceptID": "CN232509"
- },
- {
-   "DiseaseName": "Dental (child onset)",
-   "ConceptID": "CN232537"
- },
- {
    "DiseaseName": "Dental crowding",
    "ConceptID": "C0040433"
  },
@@ -31509,8 +31337,8 @@
    "ConceptID": "C1857314"
  },
  {
-   "DiseaseName": "Dermatologic (adult onset)",
-   "ConceptID": "CN232464"
+   "DiseaseName": "Dermatologic",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Dermatological manifestations of systemic disorders",
@@ -31519,14 +31347,6 @@
  {
    "DiseaseName": "Dermatological phenotype",
    "ConceptID": "CN230737"
- },
- {
-   "DiseaseName": "  Dermatologic (child onset)",
-   "ConceptID": "CN232511"
- },
- {
-   "DiseaseName": "Dermatologic (child onset)",
-   "ConceptID": "CN232538"
  },
  {
    "DiseaseName": "Dermatopathia pigmentosa reticularis",
@@ -32301,10 +32121,6 @@
    "ConceptID": "C4024984"
  },
  {
-   "DiseaseName": "Diffuse leukoencephalopathy",
-   "ConceptID": "C1868514"
- },
- {
    "DiseaseName": "Diffuse mesangial sclerosis",
    "ConceptID": "C0268747"
  },
@@ -32361,10 +32177,6 @@
    "ConceptID": "C4024860"
  },
  {
-   "DiseaseName": "Diffuse spongiform leukoencephalopathy",
-   "ConceptID": "C1858857"
- },
- {
    "DiseaseName": "Diffuse swelling of cerebral white matter",
    "ConceptID": "C1858855"
  },
@@ -32387,10 +32199,6 @@
  {
    "DiseaseName": "Digital Arthropathy-Brachydactyly",
    "ConceptID": "CN230081"
- },
- {
-   "DiseaseName": "Digital arthropathy-brachydactyly, familial",
-   "ConceptID": "C1847406"
  },
  {
    "DiseaseName": "Digital clubbing, isolated congenital",
@@ -32541,180 +32349,8 @@
    "ConceptID": "C1842881"
  },
  {
-   "DiseaseName": "Dilated cardiomyopathy 1AA",
-   "ConceptID": "C2677338"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1A",
-   "ConceptID": "C1449563"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1BB",
-   "ConceptID": "C2752072"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1B",
-   "ConceptID": "C1868673"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1C",
-   "ConceptID": "C1832244"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1CC",
-   "ConceptID": "C2751084"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1DD",
-   "ConceptID": "C2750995"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1E",
-   "ConceptID": "C1832680"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1EE",
-   "ConceptID": "C2750466"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1F",
-   "ConceptID": "C1865925"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1FF",
-   "ConceptID": "C2750091"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1G",
-   "ConceptID": "C1858763"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1GG",
-   "ConceptID": "C3150898"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1H",
-   "ConceptID": "C1858591"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1HH",
-   "ConceptID": "C3151293"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1I",
-   "ConceptID": "C1858154"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1II",
-   "ConceptID": "C3554649"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1J",
-   "ConceptID": "C1854368"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1JJ",
-   "ConceptID": "C3808935"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1K",
-   "ConceptID": "C1854159"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1KK",
-   "ConceptID": "C3714995"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1L",
-   "ConceptID": "C1847667"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1LL",
-   "ConceptID": "C3809289"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1M",
-   "ConceptID": "C1843808"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1N",
-   "ConceptID": "C1843791"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1O",
-   "ConceptID": "C1837839"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1P",
-   "ConceptID": "C1835928"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1Q",
-   "ConceptID": "C1835926"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1R",
-   "ConceptID": "C3150681"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1S",
-   "ConceptID": "C1834481"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1T",
-   "ConceptID": "C3151039"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1V",
-   "ConceptID": "C3150958"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1W",
-   "ConceptID": "C1969639"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1X",
-   "ConceptID": "C1969024"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1Y",
-   "ConceptID": "C2678476"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 1Z",
-   "ConceptID": "C2678475"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 2A",
-   "ConceptID": "C2678474"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy 3B",
-   "ConceptID": "C3668940"
- },
- {
    "DiseaseName": "Dilated cardiomyopathy",
    "ConceptID": "CN235865"
- },
- {
-   "DiseaseName": "Dilated Cardiomyopathy, Dominant",
-   "ConceptID": "CN239310"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy-hypergonadotropic hypogonadism syndrome",
-   "ConceptID": "C0796031"
- },
- {
-   "DiseaseName": "Dilated Cardiomyopathy, Recessive",
-   "ConceptID": "CN239222"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy with left ventricular noncompaction",
-   "ConceptID": "C1853863"
- },
- {
-   "DiseaseName": "Dilated cardiomyopathy with woolly hair and keratoderma",
-   "ConceptID": "C1854063"
  },
  {
    "DiseaseName": "Dilated fourth ventricle",
@@ -32903,10 +32539,6 @@
  {
    "DiseaseName": "Disorder of carbohydrate metabolism",
    "ConceptID": "C0149670"
- },
- {
-   "DiseaseName": "Disorder of cardiovascular system",
-   "ConceptID": "C0007222"
  },
  {
    "DiseaseName": "Disorder of endocrine system",
@@ -34813,10 +34445,6 @@
    "ConceptID": "CN043596"
  },
  {
-   "DiseaseName": "Early onset focal segmental glomerulosclerosis",
-   "ConceptID": "CN228292"
- },
- {
    "DiseaseName": "early onset infantile encephalopathy",
    "ConceptID": "CN236797"
  },
@@ -36301,72 +35929,8 @@
    "ConceptID": "C3281106"
  },
  {
-   "DiseaseName": "Encephalopathy, acute, infection-induced, 3, suceptibility to",
-   "ConceptID": "C2675556"
- },
- {
-   "DiseaseName": "Encephalopathy, acute, infection-induced, 4, susceptibility to",
-   "ConceptID": "C3280160"
- },
- {
-   "DiseaseName": "Encephalopathy, acute, infection-induced",
-   "ConceptID": "CN236791"
- },
- {
-   "DiseaseName": "ENCEPHALOPATHY, ACUTE, INFECTION-INDUCED (HERPES-SPECIFIC), SUSCEPTIBILITY TO, 8",
-   "ConceptID": "CN865669"
- },
- {
-   "DiseaseName": "Encephalopathy, axonal, with necrotizing myopathy, cardiomyopathy, and cataracts",
-   "ConceptID": "C1856990"
- },
- {
    "DiseaseName": "Encephalopathy",
    "ConceptID": "C1963101"
- },
- {
-   "DiseaseName": "Encephalopathy due to defective mitochondrial and peroxisomal fission 1",
-   "ConceptID": "C3280660"
- },
- {
-   "DiseaseName": "Encephalopathy due to defective mitochondrial and peroxisomal fission 2",
-   "ConceptID": "C4310726"
- },
- {
-   "DiseaseName": "Encephalopathy due to defective mitochondrial and peroxisomal fission",
-   "ConceptID": "CN262498"
- },
- {
-   "DiseaseName": "Encephalopathy, familial progressive necrotizing",
-   "ConceptID": "C4016614"
- },
- {
-   "DiseaseName": "Encephalopathy, familial, with neuroserpin inclusion bodies",
-   "ConceptID": "C1858680"
- },
- {
-   "DiseaseName": "ENCEPHALOPATHY, NEONATAL SEVERE, WITH LACTIC ACIDOSIS AND BRAIN ABNORMALITIES",
-   "ConceptID": "C4540052"
- },
- {
-   "DiseaseName": "ENCEPHALOPATHY, PROGRESSIVE, EARLY-ONSET, WITH BRAIN ATROPHY AND SPASTICITY",
-   "ConceptID": "C4540059"
- },
- {
-   "DiseaseName": "Encephalopathy, progressive, early-onset, with brain atrophy and thin corpus callosum",
-   "ConceptID": "C4310671"
- },
- {
-   "DiseaseName": "Encephalopathy, progressive, early-onset, with brain edema and/or leukoencephalopathy",
-   "ConceptID": "C4310675"
- },
- {
-   "DiseaseName": "Encephalopathy, progressive, with amyotrophy and optic atrophy",
-   "ConceptID": "C4310667"
- },
- {
-   "DiseaseName": "Encephalopathy, progressive, with or without lipodystrophy",
-   "ConceptID": "C4014700"
  },
  {
    "DiseaseName": "Enchondroma",
@@ -36401,16 +35965,12 @@
    "ConceptID": "C0014118"
  },
  {
-   "DiseaseName": "Endocrine (adult onset)",
+   "DiseaseName": "Endocrine",
    "ConceptID": "CN232465"
  },
  {
    "DiseaseName": "Endocrine-cerebroosteodysplasia",
    "ConceptID": "C2675227"
- },
- {
-   "DiseaseName": "Endocrine (child onset)",
-   "ConceptID": "CN232539"
  },
  {
    "DiseaseName": "Endocrinological phenotype",
@@ -37445,186 +37005,6 @@
    "ConceptID": "C0543888"
  },
  {
-   "DiseaseName": "Epileptic encephalopathy, childhood-onset",
-   "ConceptID": "C3809278"
- },
- {
-   "DiseaseName": "epileptic encephalopathy, early infanitle, 1",
-   "ConceptID": "CN221281"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 19",
-   "ConceptID": "C3810400"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 1",
-   "ConceptID": "C3463992"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 23",
-   "ConceptID": "C4014492"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 24",
-   "ConceptID": "C4014531"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 25",
-   "ConceptID": "C4014621"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 26",
-   "ConceptID": "C4015119"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 27",
-   "ConceptID": "C4015316"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 28",
-   "ConceptID": "C4015519"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 29",
-   "ConceptID": "C4225361"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 30",
-   "ConceptID": "C4225360"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 31",
-   "ConceptID": "C4225357"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 32",
-   "ConceptID": "C4225350"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 33",
-   "ConceptID": "C4225337"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 35",
-   "ConceptID": "C4225256"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 36",
-   "ConceptID": "C3550904"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 37",
-   "ConceptID": "C4310770"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 38",
-   "ConceptID": "C4310762"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 40",
-   "ConceptID": "C4310737"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 41",
-   "ConceptID": "C4310717"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 42",
-   "ConceptID": "C4310716"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 43",
-   "ConceptID": "C4310712"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 44",
-   "ConceptID": "C4310700"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 45",
-   "ConceptID": "C4310691"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 46",
-   "ConceptID": "C4310687"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 47",
-   "ConceptID": "C4310685"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 48",
-   "ConceptID": "C4310637"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 49",
-   "ConceptID": "C4310635"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 50",
-   "ConceptID": "C4225320"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 51",
-   "ConceptID": "C4479208"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 52",
-   "ConceptID": "C4479236"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 53",
-   "ConceptID": "C4479313"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy, early infantile, 54",
-   "ConceptID": "C4479319"
- },
- {
-   "DiseaseName": "EPILEPTIC ENCEPHALOPATHY, EARLY INFANTILE, 56",
-   "ConceptID": "C4540034"
- },
- {
-   "DiseaseName": "EPILEPTIC ENCEPHALOPATHY, EARLY INFANTILE, 57",
-   "ConceptID": "C4540411"
- },
- {
-   "DiseaseName": "EPILEPTIC ENCEPHALOPATHY, EARLY INFANTILE, 58",
-   "ConceptID": "CN757795"
- },
- {
-   "DiseaseName": "EPILEPTIC ENCEPHALOPATHY, EARLY INFANTILE, 60",
-   "ConceptID": "CN244549"
- },
- {
-   "DiseaseName": "EPILEPTIC ENCEPHALOPATHY, EARLY INFANTILE, 63",
-   "ConceptID": "CN244926"
- },
- {
-   "DiseaseName": "EPILEPTIC ENCEPHALOPATHY, EARLY INFANTILE, 64",
-   "ConceptID": "CN248512"
- },
- {
-   "DiseaseName": "EPILEPTIC ENCEPHALOPATHY, EARLY INFANTILE, 65",
-   "ConceptID": "CN248516"
- },
- {
-   "DiseaseName": "EPILEPTIC ENCEPHALOPATHY, INFANTILE OR EARLY CHILDHOOD, 1",
-   "ConceptID": "C4540199"
- },
- {
-   "DiseaseName": "EPILEPTIC ENCEPHALOPATHY, INFANTILE OR EARLY CHILDHOOD, 2",
-   "ConceptID": "CN757794"
- },
- {
-   "DiseaseName": "EPILEPTIC ENCEPHALOPATHY, INFANTILE OR EARLY CHILDHOOD, 3",
-   "ConceptID": "CN248521"
- },
- {
-   "DiseaseName": "Epileptic encephalopathy Lennox-Gastaut type",
-   "ConceptID": "C3807541"
- },
- {
    "DiseaseName": "Epileptic spasms",
    "ConceptID": "C1527366"
  },
@@ -38487,10 +37867,6 @@
  {
    "DiseaseName": "Exostoses of the ulna",
    "ConceptID": "C4025464"
- },
- {
-   "DiseaseName": "Exostoses with anetodermia and brachydactyly, type e",
-   "ConceptID": "C1851428"
  },
  {
    "DiseaseName": "Exostosis of external ear canal",
@@ -39505,10 +38881,6 @@
    "ConceptID": "C0340504"
  },
  {
-   "DiseaseName": "Familial Isolated Pituitary Adenomas",
-   "ConceptID": "CN239192"
- },
- {
    "DiseaseName": "Familial isolated restrictive cardiomyopathy",
    "ConceptID": "CN205687"
  },
@@ -40421,10 +39793,6 @@
    "ConceptID": "C1851099"
  },
  {
-   "DiseaseName": "Fibular hypoplasia and complex brachydactyly",
-   "ConceptID": "C1856738"
- },
- {
    "DiseaseName": "Fibular hypoplasia",
    "ConceptID": "C1832119"
  },
@@ -40531,10 +39899,6 @@
  {
    "DiseaseName": "Firm muscles",
    "ConceptID": "C1850656"
- },
- {
-   "DiseaseName": "First degree atrioventricular block",
-   "ConceptID": "C0085614"
  },
  {
    "DiseaseName": "First dorsal interossei muscle atrophy",
@@ -41049,76 +40413,12 @@
    "ConceptID": "C4531266"
  },
  {
-   "DiseaseName": "Focal Segmental Glomerulosclerosis 10",
-   "ConceptID": "CN230140"
- },
- {
-   "DiseaseName": "Focal segmental glomerulosclerosis 1",
-   "ConceptID": "C0333497"
- },
- {
-   "DiseaseName": "Focal segmental glomerulosclerosis 2",
-   "ConceptID": "C1858915"
- },
- {
-   "DiseaseName": "Focal segmental glomerulosclerosis 3",
-   "ConceptID": "C4016880"
- },
- {
-   "DiseaseName": "Focal segmental glomerulosclerosis 3, susceptibility to",
-   "ConceptID": "C1842982"
- },
- {
-   "DiseaseName": "Focal segmental glomerulosclerosis 4, susceptibility to",
-   "ConceptID": "C2675525"
- },
- {
-   "DiseaseName": "Focal segmental glomerulosclerosis 5",
-   "ConceptID": "C2750475"
- },
- {
-   "DiseaseName": "Focal segmental glomerulosclerosis 6",
-   "ConceptID": "C3279905"
- },
- {
-   "DiseaseName": "Focal segmental glomerulosclerosis 7",
-   "ConceptID": "C4014925"
- },
- {
-   "DiseaseName": "Focal segmental glomerulosclerosis 8",
-   "ConceptID": "C4014993"
- },
- {
-   "DiseaseName": "Focal segmental glomerulosclerosis 9",
-   "ConceptID": "C4015555"
- },
- {
-   "DiseaseName": "Focal segmental glomerulosclerosis and dilated cardiomyopathy",
-   "ConceptID": "C4016633"
- },
- {
-   "DiseaseName": "Focal segmental glomerulosclerosis",
-   "ConceptID": "C0017668"
- },
- {
    "DiseaseName": "Focal segmental glomerulosclerosis",
    "ConceptID": "CN043606"
  },
  {
-   "DiseaseName": "Focal seizures, afebril",
-   "ConceptID": "C4049830"
- },
- {
    "DiseaseName": "Focal seizures",
    "ConceptID": "C0751495"
- },
- {
-   "DiseaseName": "Focal seizures with impairment of consciousness or awareness",
-   "ConceptID": "C0149958"
- },
- {
-   "DiseaseName": "Focal seizures without impairment of consciousness or awareness",
-   "ConceptID": "C0234974"
  },
  {
    "DiseaseName": "Focal subretinal deposits",
@@ -42361,12 +41661,8 @@
    "ConceptID": "C0017168"
  },
  {
-   "DiseaseName": "  Gastrointestinal (adult onset)",
-   "ConceptID": "CN232460"
- },
- {
-   "DiseaseName": "Gastrointestinal (adult onset)",
-   "ConceptID": "CN232466"
+   "DiseaseName": "Gastrointestinal",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Gastrointestinal angiodysplasia",
@@ -42383,14 +41679,6 @@
  {
    "DiseaseName": "Gastrointestinal carcinoma",
    "ConceptID": "C0151544"
- },
- {
-   "DiseaseName": "  Gastrointestinal (child onset)",
-   "ConceptID": "CN232514"
- },
- {
-   "DiseaseName": "Gastrointestinal (child onset)",
-   "ConceptID": "CN232540"
  },
  {
    "DiseaseName": "Gastrointestinal duplication",
@@ -42859,10 +42147,6 @@
  {
    "DiseaseName": "Genitopatellar syndrome",
    "ConceptID": "C1853566"
- },
- {
-   "DiseaseName": "Genitourinary (child onset)",
-   "ConceptID": "CN232541"
  },
  {
    "DiseaseName": "Genitourinary tract anomalies",
@@ -43635,10 +42919,6 @@
  {
    "DiseaseName": "Glycerol release during exercise, defective",
    "ConceptID": "C3280715"
- },
- {
-   "DiseaseName": "Glycine encephalopathy with normal serum glycine",
-   "ConceptID": "C4310943"
  },
  {
    "DiseaseName": "Glycine N-methyltransferase deficiency",
@@ -44905,8 +44185,8 @@
    "ConceptID": "C2750092"
  },
  {
-   "DiseaseName": "Hematologic (child onset)",
-   "ConceptID": "CN232542"
+   "DiseaseName": "Hematologic",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Hematologic neoplasm",
@@ -45365,10 +44645,6 @@
    "ConceptID": "C0267834"
  },
  {
-   "DiseaseName": "Hepatic encephalopathy",
-   "ConceptID": "C0019151"
- },
- {
    "DiseaseName": "Hepatic failure",
    "ConceptID": "C0085605"
  },
@@ -45579,10 +44855,6 @@
  {
    "DiseaseName": "Hereditary diffuse gastric cancer",
    "ConceptID": "C1708349"
- },
- {
-   "DiseaseName": "Hereditary diffuse leukoencephalopathy with spheroids",
-   "ConceptID": "C3711381"
  },
  {
    "DiseaseName": "Hereditary disease",
@@ -45843,10 +45115,6 @@
  {
    "DiseaseName": "Hereditary sideroblastic anemia",
    "ConceptID": "C0221018"
- },
- {
-   "DiseaseName": "Hereditary Sideroblastic Anemia with Myopathy and Lactic Acidosis",
-   "ConceptID": "CN239187"
  },
  {
    "DiseaseName": "Hereditary spastic paraplegia",
@@ -46801,10 +46069,6 @@
    "ConceptID": "C2751073"
  },
  {
-   "DiseaseName": "Hydrops, lactic acidosis, and sideroblastic anemia",
-   "ConceptID": "C4310761"
- },
- {
    "DiseaseName": "Hydroureter",
    "ConceptID": "C0521620"
  },
@@ -47757,10 +47021,6 @@
    "ConceptID": "C1840385"
  },
  {
-   "DiseaseName": "Hypertelorism and other facial dysmorphism, brachydactyly, genital abnormalities, mental retardation, and recurrent inflammatory episodes",
-   "ConceptID": "C3553465"
- },
- {
    "DiseaseName": "Hypertelorism",
    "ConceptID": "C0020534"
  },
@@ -48153,10 +47413,6 @@
    "ConceptID": "C0020617"
  },
  {
-   "DiseaseName": "Hypoglycemic encephalopathy",
-   "ConceptID": "C0149877"
- },
- {
    "DiseaseName": "Hypoglycemic seizures",
    "ConceptID": "C0877056"
  },
@@ -48417,52 +47673,16 @@
    "ConceptID": "C0020630"
  },
  {
-   "DiseaseName": "Hypophosphatasia, perinatal lethal",
-   "ConceptID": "C2673477"
- },
- {
    "DiseaseName": "Hypophosphatemia",
    "ConceptID": "C0085682"
- },
- {
-   "DiseaseName": "Hypophosphatemia, renal, with intracerebral calcifications",
-   "ConceptID": "C1855809"
  },
  {
    "DiseaseName": "Hypophosphatemic bone disease",
    "ConceptID": "C1840321"
  },
  {
-   "DiseaseName": "Hypophosphatemic rickets and hyperparathyroidism",
-   "ConceptID": "C2677524"
- },
- {
-   "DiseaseName": "Hypophosphatemic rickets, autosomal recessive, 2",
-   "ConceptID": "C2750078"
- },
- {
    "DiseaseName": "Hypophosphatemic rickets",
    "ConceptID": "C1704375"
- },
- {
-   "DiseaseName": "Hypophosphatemic Rickets Disorders",
-   "ConceptID": "CN230104"
- },
- {
-   "DiseaseName": "Hypophosphatemic Rickets, Dominant",
-   "ConceptID": "CN239437"
- },
- {
-   "DiseaseName": "Hypophosphatemic Rickets, Recessive",
-   "ConceptID": "CN239452"
- },
- {
-   "DiseaseName": "Hypophosphatemic rickets with hyperparathyroidism",
-   "ConceptID": "CN231411"
- },
- {
-   "DiseaseName": "Hypophosphatemic rickets, X-linked recessive",
-   "ConceptID": "C1845168"
  },
  {
    "DiseaseName": "Hypophosphaturia",
@@ -48503,10 +47723,6 @@
  {
    "DiseaseName": "Hypopituitarism",
    "ConceptID": "C0020635"
- },
- {
-   "DiseaseName": "Hypopituitarism, congenital, with central diabetes insipidus",
-   "ConceptID": "C1855800"
  },
  {
    "DiseaseName": "Hypoplasia of deltoid muscle",
@@ -49123,26 +48339,6 @@
  {
    "DiseaseName": "Hyposmia",
    "ConceptID": "C2364082"
- },
- {
-   "DiseaseName": "Hypospadias 1, X-linked",
-   "ConceptID": "C2678098"
- },
- {
-   "DiseaseName": "Hypospadias 2, X-linked",
-   "ConceptID": "C2677879"
- },
- {
-   "DiseaseName": "Hypospadias 3, autosomal",
-   "ConceptID": "C2675154"
- },
- {
-   "DiseaseName": "Hypospadias 4, X-linked, susceptibility to",
-   "ConceptID": "C3275458"
- },
- {
-   "DiseaseName": "Hypospadias",
-   "ConceptID": "C0848558"
  },
  {
    "DiseaseName": "Hypospadias",
@@ -51093,10 +50289,6 @@
    "ConceptID": "C1856408"
  },
  {
-   "DiseaseName": "Infantile encephalopathy",
-   "ConceptID": "CN238762"
- },
- {
    "DiseaseName": "Infantile epilepsy",
    "ConceptID": "CN228296"
  },
@@ -51115,10 +50307,6 @@
  {
    "DiseaseName": "Infantile hypercalcemia",
    "ConceptID": "C0475732"
- },
- {
-   "DiseaseName": "Infantile hypophosphatasia",
-   "ConceptID": "C0268412"
  },
  {
    "DiseaseName": "Infantile liver failure syndrome 1",
@@ -51191,14 +50379,6 @@
  {
    "DiseaseName": "Infections",
    "ConceptID": "C0851162"
- },
- {
-   "DiseaseName": "Infections, recurrent, associated with encephalopathy, hepatic dysfunction, and cardiovascular malformations",
-   "ConceptID": "C4016797"
- },
- {
-   "DiseaseName": "Infections, recurrent, with encephalopathy, hepatic dysfunction, and cardiovascular malformations",
-   "ConceptID": "C3151062"
  },
  {
    "DiseaseName": "Inferior lens subluxation",
@@ -53501,10 +52681,6 @@
    "ConceptID": "C1850778"
  },
  {
-   "DiseaseName": "Juvenile myopathy, encephalopathy, lactic acidosis AND stroke",
-   "ConceptID": "C0162671"
- },
- {
    "DiseaseName": "Juvenile nasopharyngeal angiofibroma",
    "ConceptID": "C1367536"
  },
@@ -54307,10 +53483,6 @@
  {
    "DiseaseName": "Lactic acidosis",
    "ConceptID": "C0001125"
- },
- {
-   "DiseaseName": "Lactic acidosis, chronic adult form",
-   "ConceptID": "C1835591"
  },
  {
    "DiseaseName": "Lacticaciduria",
@@ -55365,10 +54537,6 @@
    "ConceptID": "CN239241"
  },
  {
-   "DiseaseName": "Lethal Encephalopathy",
-   "ConceptID": "CN239368"
- },
- {
    "DiseaseName": "Lethal infantile mitochondrial myopathy",
    "ConceptID": "C1838876"
  },
@@ -55605,40 +54773,8 @@
    "ConceptID": "C4540358"
  },
  {
-   "DiseaseName": "Leukoencephalopathy, arthritis, colitis, and hypogammaglobulinema",
-   "ConceptID": "C1837329"
- },
- {
-   "DiseaseName": "Leukoencephalopathy, brain calcifications, and cysts",
-   "ConceptID": "C3281200"
- },
- {
    "DiseaseName": "Leukoencephalopathy",
    "ConceptID": "C0270612"
- },
- {
-   "DiseaseName": "Leukoencephalopathy, progressive, with ovarian failure",
-   "ConceptID": "C4014588"
- },
- {
-   "DiseaseName": "Leukoencephalopathy with Brainstem and Spinal Cord Involvement and Lactate Elevation",
-   "ConceptID": "C1970180"
- },
- {
-   "DiseaseName": "Leukoencephalopathy with brain stem and spinal cord involvement and lactate elevation",
-   "ConceptID": "CN230084"
- },
- {
-   "DiseaseName": "Leukoencephalopathy with dystonia and motor neuropathy",
-   "ConceptID": "C3150990"
- },
- {
-   "DiseaseName": "Leukoencephalopathy with metaphyseal chondrodysplasia",
-   "ConceptID": "C1970840"
- },
- {
-   "DiseaseName": "Leukoencephalopathy with vanishing white matter",
-   "ConceptID": "C1858991"
  },
  {
    "DiseaseName": "Leukomelanoderma, infantilism, mental retardation, hypodontia, hypotrichosis",
@@ -56071,10 +55207,6 @@
  {
    "DiseaseName": "Lipoatrophy",
    "ConceptID": "C1280433"
- },
- {
-   "DiseaseName": "Lipoatrophy with Diabetes, Hepatic Steatosis, Hypertrophic Cardiomyopathy, and Leukomelanodermic Papules",
-   "ConceptID": "CN239184"
  },
  {
    "DiseaseName": "Lipochrome histiocytosis - familial",
@@ -58373,10 +57505,6 @@
    "ConceptID": "C1855346"
  },
  {
-   "DiseaseName": "Maternal anticardiolipin antibody positive",
-   "ConceptID": "C4022860"
- },
- {
    "DiseaseName": "Maternal autoimmune disease",
    "ConceptID": "C4023358"
  },
@@ -58703,10 +57831,6 @@
  {
    "DiseaseName": "Megakaryocytopenia",
    "ConceptID": "C1858312"
- },
- {
-   "DiseaseName": "Megalencephalic leukoencephalopathy with subcortical cysts",
-   "ConceptID": "CN176898"
  },
  {
    "DiseaseName": "Megalencephaly",
@@ -59281,14 +58405,6 @@
    "ConceptID": "C0220983"
  },
  {
-   "DiseaseName": "Metabolic/ Biochemical (adult onset)",
-   "ConceptID": "CN235929"
- },
- {
-   "DiseaseName": "Metabolic/ Biochemical (child onset)",
-   "ConceptID": "CN232534"
- },
- {
    "DiseaseName": "Metabolic disease",
    "ConceptID": "C0025517"
  },
@@ -59495,10 +58611,6 @@
  {
    "DiseaseName": "Metaphyseal dysplasia, braun-tinschert type",
    "ConceptID": "C1853825"
- },
- {
-   "DiseaseName": "Metaphyseal dysplasia with maxillary hypoplasia and brachydactyly",
-   "ConceptID": "C1834969"
  },
  {
    "DiseaseName": "Metaphyseal dysplasia without hypotrichosis",
@@ -60697,10 +59809,6 @@
    "ConceptID": "C0751651"
  },
  {
-   "DiseaseName": "mitochondrial disorder with lactic acidosis",
-   "ConceptID": "CN232681"
- },
- {
    "DiseaseName": "Mitochondrial DNA-Associated Leigh Syndrome and NARP",
    "ConceptID": "CN043634"
  },
@@ -60709,80 +59817,8 @@
    "ConceptID": "CN043632"
  },
  {
-   "DiseaseName": "Mitochondrial DNA depletion syndrome 11",
-   "ConceptID": "C3554462"
- },
- {
-   "DiseaseName": "Mitochondrial DNA depletion syndrome 12a (cardiomyopathic type), autosomal dominant",
-   "ConceptID": "C4310676"
- },
- {
-   "DiseaseName": "Mitochondrial DNA depletion syndrome 12b (cardiomyopathic type), autosomal recessive",
-   "ConceptID": "C3809443"
- },
- {
-   "DiseaseName": "Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)",
-   "ConceptID": "C3809592"
- },
- {
-   "DiseaseName": "Mitochondrial DNA depletion syndrome 14 (cardioencephalomyopathic type)",
-   "ConceptID": "C4225163"
- },
- {
-   "DiseaseName": "Mitochondrial DNA depletion syndrome 15 (hepatocerebral type)",
-   "ConceptID": "C4310690"
- },
- {
-   "DiseaseName": "Mitochondrial DNA depletion syndrome 1 (MNGIE type)",
-   "ConceptID": "C0872218"
- },
- {
-   "DiseaseName": "Mitochondrial DNA depletion syndrome 2",
-   "ConceptID": "C3149750"
- },
- {
-   "DiseaseName": "Mitochondrial DNA-depletion syndrome 3, hepatocerebral",
-   "ConceptID": "C3151513"
- },
- {
-   "DiseaseName": "Mitochondrial DNA depletion syndrome 4B, MNGIE type",
-   "ConceptID": "C3150914"
- },
- {
-   "DiseaseName": "Mitochondrial DNA depletion syndrome 5 (encephalomyopathic with or without methylmalonic aciduria)",
-   "ConceptID": "C2749864"
- },
- {
-   "DiseaseName": "Mitochondrial DNA depletion syndrome 7 (hepatocerebral type)",
-   "ConceptID": "C1849096"
- },
- {
-   "DiseaseName": "Mitochondrial DNA depletion syndrome 8B (MNGIE type)",
-   "ConceptID": "C3150172"
- },
- {
-   "DiseaseName": "Mitochondrial DNA depletion syndrome 9 (encephalomyopathic with methylmalonic aciduria)",
-   "ConceptID": "C3151476"
- },
- {
    "DiseaseName": "Mitochondrial DNA depletion syndrome",
    "ConceptID": "C0342782"
- },
- {
-   "DiseaseName": "Mitochondrial DNA Depletion Syndrome, Encephalomyopathic Form",
-   "ConceptID": "CN230130"
- },
- {
-   "DiseaseName": "Mitochondrial DNA depletion syndrome, encephalomyopathic form, with renal tubulopathy",
-   "ConceptID": "C2749861"
- },
- {
-   "DiseaseName": "Mitochondrial DNA depletion syndrome, hepatocerebral form",
-   "ConceptID": "CN069134"
- },
- {
-   "DiseaseName": "Mitochondrial DNA depletion syndrome, hepatocerebral form due to DGUOK deficiency",
-   "ConceptID": "CN924908"
  },
  {
    "DiseaseName": "Mitochondrial DNA-related disorder",
@@ -60839,10 +59875,6 @@
  {
    "DiseaseName": "Mitochondrial myopathy with diabetes",
    "ConceptID": "C1839028"
- },
- {
-   "DiseaseName": "Mitochondrial myopathy with lactic acidosis",
-   "ConceptID": "C1855033"
  },
  {
    "DiseaseName": "Mitochondrial neurogastrointestinal encephalomyopathy",
@@ -60903,18 +59935,6 @@
  {
    "DiseaseName": "Mitral valve calcification",
    "ConceptID": "C0919718"
- },
- {
-   "DiseaseName": "Mitral valve prolapse 1",
-   "ConceptID": "CN074267"
- },
- {
-   "DiseaseName": "Mitral valve prolapse 2",
-   "ConceptID": "C1843003"
- },
- {
-   "DiseaseName": "Mitral valve prolapse 3",
-   "ConceptID": "C1835814"
  },
  {
    "DiseaseName": "Mitral valve prolapse",
@@ -61093,20 +60113,8 @@
    "ConceptID": "C1844597"
  },
  {
-   "DiseaseName": "Molybdenum Cofactor Deficiency A",
-   "ConceptID": "CN229758"
- },
- {
-   "DiseaseName": "Molybdenum cofactor deficiency, complementation group A",
-   "ConceptID": "C1854988"
- },
- {
-   "DiseaseName": "Molybdenum cofactor deficiency, complementation group B",
-   "ConceptID": "C1854989"
- },
- {
-   "DiseaseName": "Molybdenum cofactor deficiency, complementation group C",
-   "ConceptID": "C1854990"
+   "DiseaseName": "Molybdenum Cofactor Deficiency",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "MOMO syndrome",
@@ -61123,14 +60131,6 @@
  {
    "DiseaseName": "Monoamine oxidase A deficiency",
    "ConceptID": "C0796275"
- },
- {
-   "DiseaseName": "Monocarboxylate transporter 1 deficiency, autosomal dominant",
-   "ConceptID": "C4016684"
- },
- {
-   "DiseaseName": "Monocarboxylate transporter 1 deficiency, autosomal recessive",
-   "ConceptID": "C4016683"
  },
  {
    "DiseaseName": "Monocarboxylate transporter 1 deficiency",
@@ -61497,32 +60497,12 @@
    "ConceptID": "CN244030"
  },
  {
-   "DiseaseName": "MR/ID/DD   Allergy/Immunologic/Infectious (child onset)",
-   "ConceptID": "CN232473"
- },
- {
-   "DiseaseName": "MR/ID/DD   Audiologic/Otolaryngologic (child onset)",
-   "ConceptID": "CN232490"
+   "DiseaseName": "MR/ID/DD  Allergy/Immunologic/Infectious",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "MR/ID/DD",
    "ConceptID": "CN232552"
- },
- {
-   "DiseaseName": "MR/ID/DD   Craniofacial (child onset)",
-   "ConceptID": "CN232506"
- },
- {
-   "DiseaseName": "MR/ID/DD   Dermatologic (child onset)",
-   "ConceptID": "CN232510"
- },
- {
-   "DiseaseName": "MR/ID/DD   Gastrointestinal (child onset)",
-   "ConceptID": "CN232513"
- },
- {
-   "DiseaseName": "MR/ID/DD   Musculoskeletal/Structural (child onset)",
-   "ConceptID": "CN232520"
  },
  {
    "DiseaseName": "MRI findings",
@@ -62173,12 +61153,8 @@
    "ConceptID": "C0685707"
  },
  {
-   "DiseaseName": "  Musculoskeletal/Structural (child onset)",
-   "ConceptID": "CN232522"
- },
- {
-   "DiseaseName": "Musculoskeletal/Structural (child onset)",
-   "ConceptID": "CN232543"
+   "DiseaseName": "Musculoskeletal/Structural",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Musculotendinous retraction",
@@ -62241,92 +61217,8 @@
    "ConceptID": "C1850792"
  },
  {
-   "DiseaseName": "Myasthenic syndrome, congenital, 11, associated with acetylcholine receptor deficiency",
-   "ConceptID": "C4225367"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 14",
-   "ConceptID": "C4015597"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 15",
-   "ConceptID": "C4015596"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 17",
-   "ConceptID": "C4225377"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 18",
-   "ConceptID": "C4225364"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 19",
-   "ConceptID": "C4225235"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 20, presynaptic",
-   "ConceptID": "C4310694"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 21, presynaptic",
-   "ConceptID": "C4310654"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 22",
-   "ConceptID": "C4479088"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 2a, slow-channel",
-   "ConceptID": "C4225374"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 2c, associated with acetylcholine receptor deficiency",
-   "ConceptID": "C4225373"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 3a, slow-channel",
-   "ConceptID": "C4225372"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 3b, fast-channel",
-   "ConceptID": "C4225371"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 3c, associated with acetylcholine receptor deficiency",
-   "ConceptID": "C4225370"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 4a, slow-channel",
-   "ConceptID": "C1853949"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 4b, fast-channel",
-   "ConceptID": "C4225369"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 7, presynaptic",
-   "ConceptID": "C4015038"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 8",
-   "ConceptID": "C3808739"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency",
-   "ConceptID": "C4225368"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, associated with acetylcholine receptor deficiency",
-   "ConceptID": "C1837091"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, congenital, with facial dysmorphism, associated with acetylcholine receptor deficiency",
-   "ConceptID": "C1837092"
- },
- {
-   "DiseaseName": "Myasthenic syndrome, slow-channel congenital",
-   "ConceptID": "C0751885"
+   "DiseaseName": "Myasthenic syndrome",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "MYBPC3-Related Disorders",
@@ -62817,28 +61709,12 @@
    "ConceptID": "C1850744"
  },
  {
-   "DiseaseName": "Myopathy, early-onset, with fatal cardiomyopathy",
-   "ConceptID": "C2673677"
- },
- {
    "DiseaseName": "Myopathy, granulovacuolar lobular, with electrical myotonia",
    "ConceptID": "C1850745"
  },
  {
    "DiseaseName": "Myopathy, isolated mitochondrial, autosomal dominant",
    "ConceptID": "C4015513"
- },
- {
-   "DiseaseName": "Myopathy, lactic acidosis, and sideroblastic anemia 1",
-   "ConceptID": "C1838103"
- },
- {
-   "DiseaseName": "Myopathy, lactic acidosis, and sideroblastic anemia 2",
-   "ConceptID": "C3150802"
- },
- {
-   "DiseaseName": "Myopathy, lactic acidosis, and sideroblastic anemia 3",
-   "ConceptID": "C4225415"
  },
  {
    "DiseaseName": "Myopathy, mitochondrial, late-onset",
@@ -62895,10 +61771,6 @@
  {
    "DiseaseName": "Myopathy with giant abnormal mitochondria",
    "ConceptID": "C1850717"
- },
- {
-   "DiseaseName": "Myopathy with lactic acidosis, hereditary",
-   "ConceptID": "C1850718"
  },
  {
    "DiseaseName": "Myopathy with postural muscle atrophy, X-linked",
@@ -63673,10 +62545,6 @@
    "ConceptID": "C0859974"
  },
  {
-   "DiseaseName": "neonatal lactic acidosis",
-   "ConceptID": "CN231227"
- },
- {
    "DiseaseName": "Neonatal onset",
    "ConceptID": "C1855106"
  },
@@ -64389,10 +63257,6 @@
    "ConceptID": "C4022738"
  },
  {
-   "DiseaseName": "NEURODEVELOPMENTAL DISORDER, MITOCHONDRIAL, WITH ABNORMAL MOVEMENTS AND LACTIC ACIDOSIS, WITH OR WITHOUT SEIZURES",
-   "ConceptID": "C4540192"
- },
- {
    "DiseaseName": "Neurodevelopmental disorder, MTOR related",
    "ConceptID": "CN240381"
  },
@@ -64525,7 +63389,7 @@
    "ConceptID": "C0687720"
  },
  {
-   "DiseaseName": "Neurologic (adult onset)",
+   "DiseaseName": "Neurologic",
    "ConceptID": "CN232467"
  },
  {
@@ -64545,8 +63409,8 @@
    "ConceptID": "C0037822"
  },
  {
-   "DiseaseName": "Neurologic (child onset)",
-   "ConceptID": "CN232544"
+   "DiseaseName": "Neurologic",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Neurologic disease",
@@ -66141,16 +65005,8 @@
    "ConceptID": "C1833883"
  },
  {
-   "DiseaseName": "  Oncologic (adult onset)",
-   "ConceptID": "CN232461"
- },
- {
-   "DiseaseName": "Oncologic (adult onset)",
-   "ConceptID": "CN232468"
- },
- {
-   "DiseaseName": "Oncologic (child onset)",
-   "ConceptID": "CN232545"
+   "DiseaseName": "Oncologic",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Ondansetron response",
@@ -66265,16 +65121,8 @@
    "ConceptID": "C2675973"
  },
  {
-   "DiseaseName": "Ophthalmologic (adult onset)",
-   "ConceptID": "CN232469"
- },
- {
-   "DiseaseName": "  Ophthalmologic (child onset)",
-   "ConceptID": "CN232530"
- },
- {
-   "DiseaseName": "Ophthalmologic (child onset)",
-   "ConceptID": "CN232546"
+   "DiseaseName": "Ophthalmologic",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Ophthalmoparesis",
@@ -68335,10 +67183,6 @@
  {
    "DiseaseName": "Panhypopituitarism",
    "ConceptID": "C0242343"
- },
- {
-   "DiseaseName": "Panhypopituitarism X-linked",
-   "ConceptID": "C0342376"
  },
  {
    "DiseaseName": "Panic attack",
@@ -70737,10 +69581,6 @@
    "ConceptID": "C0266568"
  },
  {
-   "DiseaseName": "Persistent lactic acidosis",
-   "ConceptID": "C3554538"
- },
- {
    "DiseaseName": "Persistent left superior vena cava",
    "ConceptID": "C0265931"
  },
@@ -71177,20 +70017,8 @@
    "ConceptID": "C1968851"
  },
  {
-   "DiseaseName": "Pigmented nodular adrenocortical disease, primary, 1",
-   "ConceptID": "C1864846"
- },
- {
-   "DiseaseName": "Pigmented nodular adrenocortical disease, primary, 2",
-   "ConceptID": "C1864851"
- },
- {
-   "DiseaseName": "Pigmented nodular adrenocortical disease, primary, 3",
-   "ConceptID": "C3280094"
- },
- {
-   "DiseaseName": "Pigmented nodular adrenocortical disease, primary, 4",
-   "ConceptID": "C4014425"
+   "DiseaseName": "Pigmented nodular adrenocortical disease",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Pigmented paravenous chorioretinal atrophy",
@@ -71285,64 +70113,8 @@
    "ConceptID": "C0917890"
  },
  {
-   "DiseaseName": "Pinhole visual acuity 0.1 LogMAR",
-   "ConceptID": "C4073042"
- },
- {
-   "DiseaseName": "Pinhole visual acuity 0.2 LogMAR",
-   "ConceptID": "C4073043"
- },
- {
-   "DiseaseName": "Pinhole visual acuity 0.3 LogMAR",
-   "ConceptID": "C4073044"
- },
- {
-   "DiseaseName": "Pinhole visual acuity 0.4 LogMAR",
-   "ConceptID": "C4073045"
- },
- {
-   "DiseaseName": "Pinhole visual acuity 0.5 LogMAR",
-   "ConceptID": "C4073046"
- },
- {
-   "DiseaseName": "Pinhole visual acuity 0.6 LogMAR",
-   "ConceptID": "C4073047"
- },
- {
-   "DiseaseName": "Pinhole visual acuity 0.7 LogMAR",
-   "ConceptID": "C4073048"
- },
- {
-   "DiseaseName": "Pinhole visual acuity 0.8 LogMAR",
-   "ConceptID": "C4073049"
- },
- {
-   "DiseaseName": "Pinhole visual acuity 0.9 LogMAR",
-   "ConceptID": "C4073050"
- },
- {
-   "DiseaseName": "Pinhole visual acuity 1.0 LogMAR",
-   "ConceptID": "C4073051"
- },
- {
-   "DiseaseName": "Pinhole visual acuity 1.1 LogMAR",
-   "ConceptID": "C4073052"
- },
- {
-   "DiseaseName": "Pinhole visual acuity 1.2 LogMAR",
-   "ConceptID": "C4073053"
- },
- {
-   "DiseaseName": "Pinhole visual acuity 1.3 LogMAR",
-   "ConceptID": "C4073054"
- },
- {
-   "DiseaseName": "Pinhole visual acuity 2.0 LogMAR",
-   "ConceptID": "C4073055"
- },
- {
-   "DiseaseName": "Pinhole visual acuity 3.0 LogMAR",
-   "ConceptID": "C4073056"
+   "DiseaseName": "Pinhole visual acuity",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Pioglitazone response",
@@ -71351,14 +70123,6 @@
  {
    "DiseaseName": "Pits of palms and soles",
    "ConceptID": "C3805371"
- },
- {
-   "DiseaseName": "Pitt-Hopkins-like syndrome 1",
-   "ConceptID": "C2750246"
- },
- {
-   "DiseaseName": "Pitt-Hopkins-like syndrome 2",
-   "ConceptID": "C3280479"
  },
  {
    "DiseaseName": "Pitt-Hopkins-like syndrome",
@@ -71381,28 +70145,8 @@
    "ConceptID": "C4023201"
  },
  {
-   "DiseaseName": "PITUITARY ADENOMA 3, MULTIPLE TYPES",
-   "ConceptID": "C4540135"
- },
- {
-   "DiseaseName": "PITUITARY ADENOMA 5, MULTIPLE TYPES",
-   "ConceptID": "C4539685"
- },
- {
    "DiseaseName": "Pituitary adenoma",
    "ConceptID": "C0032000"
- },
- {
-   "DiseaseName": "Pituitary adenoma, familial isolated",
-   "ConceptID": "C2676191"
- },
- {
-   "DiseaseName": "Pituitary adenoma, growth hormone-secreting, 2",
-   "ConceptID": "C4012409"
- },
- {
-   "DiseaseName": "Pituitary adenoma predisposition",
-   "ConceptID": "C1863340"
  },
  {
    "DiseaseName": "Pituitary calcification",
@@ -71983,10 +70727,6 @@
  {
    "DiseaseName": "Polycystic kidneys, severe infantile with tuberous sclerosis",
    "ConceptID": "C1838327"
- },
- {
-   "DiseaseName": "Polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy",
-   "ConceptID": "C1857316"
  },
  {
    "DiseaseName": "Polycystic liver disease 1",
@@ -72683,10 +71423,6 @@
  {
    "DiseaseName": "Posterior lenticonus",
    "ConceptID": "C0344263"
- },
- {
-   "DiseaseName": "Posterior leukoencephalopathy",
-   "ConceptID": "C4024975"
  },
  {
    "DiseaseName": "Posteriorly dislocated ulna",
@@ -73569,16 +72305,8 @@
    "ConceptID": "CN232337"
  },
  {
-   "DiseaseName": "Primary Open Angle Glaucoma (Adult Onset)",
-   "ConceptID": "CN118827"
- },
- {
    "DiseaseName": "Primary open angle glaucoma",
    "ConceptID": "C0339573"
- },
- {
-   "DiseaseName": "Primary open angle glaucoma juvenile onset 1",
-   "ConceptID": "C1842028"
  },
  {
    "DiseaseName": "primary peritoneal cancer",
@@ -73587,10 +72315,6 @@
  {
    "DiseaseName": "Primary peritoneal carcinoma",
    "ConceptID": "C1514428"
- },
- {
-   "DiseaseName": "Primary pigmented nodular adrenocortical disease",
-   "ConceptID": "CN200645"
  },
  {
    "DiseaseName": "Primary progressive aphasia",
@@ -73709,10 +72433,6 @@
    "ConceptID": "C1854934"
  },
  {
-   "DiseaseName": "progressive   Audiologic/Otolaryngologic (adult onset)",
-   "ConceptID": "CN232458"
- },
- {
    "DiseaseName": "Progressive bowing of long bones",
    "ConceptID": "C1857137"
  },
@@ -73723,10 +72443,6 @@
  {
    "DiseaseName": "Progressive calcification of costochondral cartilage",
    "ConceptID": "C1968577"
- },
- {
-   "DiseaseName": "progressive   Cardiovascular (child onset)",
-   "ConceptID": "CN232504"
  },
  {
    "DiseaseName": "Progressive cataract",
@@ -73849,24 +72565,24 @@
    "ConceptID": "C1861310"
  },
  {
-   "DiseaseName": "progressive   Gastrointestinal (child onset)",
-   "ConceptID": "CN232515"
+   "DiseaseName": "progressive Gastrointestinal",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "progressive-generalized dystonia",
    "ConceptID": "CN232689"
  },
  {
-   "DiseaseName": "progressive   Genitourinary (child onset)",
-   "ConceptID": "CN232517"
+   "DiseaseName": "progressive Genitourinary",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Progressive hearing impairment",
    "ConceptID": "C1842138"
  },
  {
-   "DiseaseName": "progressive   Hematologic (child onset)",
-   "ConceptID": "CN232519"
+   "DiseaseName": "progressive Hematologic",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Progressive hereditary glomerulonephritis without deafness",
@@ -73905,10 +72621,6 @@
    "ConceptID": "C1855191"
  },
  {
-   "DiseaseName": "Progressive leukoencephalopathy",
-   "ConceptID": "C1855010"
- },
- {
    "DiseaseName": "Progressive limb weakness",
    "ConceptID": "CN228304"
  },
@@ -73917,7 +72629,7 @@
    "ConceptID": "C1837510"
  },
  {
-   "DiseaseName": "progressive   Metabolic/ Biochemical (child onset)",
+   "DiseaseName": "progressive Metabolic/ Biochemical",
    "ConceptID": "CN232493"
  },
  {
@@ -73925,8 +72637,8 @@
    "ConceptID": "C0240421"
  },
  {
-   "DiseaseName": "progressive   Musculoskeletal/Structural (child onset)",
-   "ConceptID": "CN232523"
+   "DiseaseName": "progressive Musculoskeletal/Structural",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Progressive myoclonic epilepsy",
@@ -74111,10 +72823,6 @@
  {
    "DiseaseName": "Prolonged bleeding following procedure",
    "ConceptID": "C4023142"
- },
- {
-   "DiseaseName": "Prolonged bleeding time, brachydactyly, and mental retardation",
-   "ConceptID": "C1841727"
  },
  {
    "DiseaseName": "Prolonged bleeding time",
@@ -75401,24 +74109,24 @@
    "ConceptID": "C1835223"
  },
  {
-   "DiseaseName": "Psychiatric   Allergy/Immunologic/Infectious (child onset)",
-   "ConceptID": "CN232474"
+   "DiseaseName": "Psychiatric Allergy/Immunologic/Infectious",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Psychiatric",
    "ConceptID": "C1548428"
  },
  {
-   "DiseaseName": "Psychiatric   Craniofacial (child onset)",
+   "DiseaseName": "Psychiatric Craniofacial",
    "ConceptID": "CN232507"
  },
  {
-   "DiseaseName": "Psychiatric   Metabolic/ Biochemical (child onset)",
-   "ConceptID": "CN232494"
+   "DiseaseName": "Psychiatric Metabolic/ Biochemical",
+   "ConceptID": ""
  },
  {
-   "DiseaseName": "Psychiatric   Musculoskeletal/Structural (child onset)",
-   "ConceptID": "CN232524"
+   "DiseaseName": "Psychiatric Musculoskeletal/Structural",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Psychic auras",
@@ -75591,10 +74299,6 @@
  {
    "DiseaseName": "Pulmonary carcinoid tumor",
    "ConceptID": "C0280089"
- },
- {
-   "DiseaseName": "Pulmonary (child onset)",
-   "ConceptID": "CN232547"
  },
  {
    "DiseaseName": "Pulmonary chondroma",
@@ -77393,8 +76097,8 @@
    "ConceptID": "C4014891"
  },
  {
-   "DiseaseName": "Renal (adult onset)",
-   "ConceptID": "CN232470"
+   "DiseaseName": "Renal",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Renal adysplasia",
@@ -77457,12 +76161,8 @@
    "ConceptID": "C3275446"
  },
  {
-   "DiseaseName": "  Renal (child onset)",
-   "ConceptID": "CN232531"
- },
- {
-   "DiseaseName": "Renal (child onset)",
-   "ConceptID": "CN232548"
+   "DiseaseName": "Renal",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Renal chloride wasting",
@@ -77575,10 +76275,6 @@
  {
    "DiseaseName": "Renal Hypomagnesemia, Recessive",
    "ConceptID": "CN239444"
- },
- {
-   "DiseaseName": "Renal hypophosphatemia",
-   "ConceptID": "C4024631"
  },
  {
    "DiseaseName": "Renal hypoplasia/aplasia",
@@ -79097,10 +77793,6 @@
    "ConceptID": "C1848587"
  },
  {
-   "DiseaseName": "Right ventricular cardiomyopathy",
-   "ConceptID": "C2063326"
- },
- {
    "DiseaseName": "Right ventricular dilatation",
    "ConceptID": "C0344893"
  },
@@ -79111,10 +77803,6 @@
  {
    "DiseaseName": "Right ventricular hypertrophy",
    "ConceptID": "C0162770"
- },
- {
-   "DiseaseName": "Right ventricular noncompaction cardiomyopathy",
-   "ConceptID": "C4022714"
  },
  {
    "DiseaseName": "Right ventricular outlet obstruction",
@@ -79139,10 +77827,6 @@
  {
    "DiseaseName": "Rimmed vacuoles",
    "ConceptID": "C1853932"
- },
- {
-   "DiseaseName": "Ring chromosome 14",
-   "ConceptID": "C2930916"
  },
  {
    "DiseaseName": "Ring chromosome 14 syndrome",
@@ -79255,10 +77939,6 @@
  {
    "DiseaseName": "Robin sequence",
    "ConceptID": "C0031900"
- },
- {
-   "DiseaseName": "Robin sequence with distinctive facial appearance and brachydactyly",
-   "ConceptID": "C1837564"
  },
  {
    "DiseaseName": "Rocker bottom foot",
@@ -80629,10 +79309,6 @@
    "ConceptID": "C0856053"
  },
  {
-   "DiseaseName": "Second degree atrioventricular block",
-   "ConceptID": "C0264906"
- },
- {
    "DiseaseName": "Second metatarsal-metacarpal syndrome",
    "ConceptID": "C1849259"
  },
@@ -80707,10 +79383,6 @@
  {
    "DiseaseName": "Seizure disorder",
    "ConceptID": "CN228288"
- },
- {
-   "DiseaseName": "Seizures and lactic acidosis",
-   "ConceptID": "C4016603"
  },
  {
    "DiseaseName": "Seizures, benign familial infantile, 1",
@@ -81135,10 +79807,6 @@
  {
    "DiseaseName": "Severe intrauterine growth retardation",
    "ConceptID": "C1855843"
- },
- {
-   "DiseaseName": "Severe lactic acidosis",
-   "ConceptID": "C1839436"
  },
  {
    "DiseaseName": "Severe language delay",
@@ -84673,136 +83341,12 @@
    "ConceptID": "C1842763"
  },
  {
-   "DiseaseName": "Spondyloepimetaphyseal dysplasia, Aggrecan type",
-   "ConceptID": "C2748544"
- },
- {
    "DiseaseName": "Spondyloepimetaphyseal dysplasia",
    "ConceptID": "C0432211"
  },
  {
-   "DiseaseName": "SPONDYLOEPIMETAPHYSEAL DYSPLASIA, DI ROCCO TYPE",
-   "ConceptID": "CN244923"
- },
- {
-   "DiseaseName": "Spondyloepimetaphyseal dysplasia, Faden-Alkuraya type",
-   "ConceptID": "C4225232"
- },
- {
-   "DiseaseName": "Spondyloepimetaphyseal dysplasia Genevieve type",
-   "ConceptID": "C1864872"
- },
- {
-   "DiseaseName": "Spondyloepimetaphyseal dysplasia Matrilin-3 related",
-   "ConceptID": "C1837481"
- },
- {
-   "DiseaseName": "Spondyloepimetaphyseal dysplasia micromelic",
-   "ConceptID": "C1832800"
- },
- {
-   "DiseaseName": "Spondyloepimetaphyseal dysplasia, Missouri type",
-   "ConceptID": "C1865832"
- },
- {
-   "DiseaseName": "Spondyloepimetaphyseal dysplasia, pakistani type",
-   "ConceptID": "C2748515"
- },
- {
-   "DiseaseName": "Spondyloepimetaphyseal dysplasia Shohat type",
-   "ConceptID": "C1865185"
- },
- {
-   "DiseaseName": "Spondyloepimetaphyseal dysplasia with abnormal dentition",
-   "ConceptID": "C1866507"
- },
- {
-   "DiseaseName": "Spondyloepimetaphyseal dysplasia with hypotrichosis",
-   "ConceptID": "C1866728"
- },
- {
-   "DiseaseName": "Spondyloepimetaphyseal dysplasia with joint laxity",
-   "ConceptID": "C0432243"
- },
- {
-   "DiseaseName": "Spondyloepimetaphyseal dysplasia with joint laxity, type 1, with fractures",
-   "ConceptID": "C4017378"
- },
- {
-   "DiseaseName": "Spondyloepimetaphyseal dysplasia with multiple dislocations",
-   "ConceptID": "C1863732"
- },
- {
-   "DiseaseName": "Spondyloepimetaphyseal dysplasia X-linked",
-   "ConceptID": "C1848097"
- },
- {
-   "DiseaseName": "Spondyloepimetaphyseal dysplasia X-linked with mental deterioration",
-   "ConceptID": "C1846148"
- },
- {
-   "DiseaseName": "Spondyloepiphyseal dysplasia-brachydactyly and distinctive speech",
-   "ConceptID": "C2673649"
- },
- {
    "DiseaseName": "Spondyloepiphyseal dysplasia",
    "ConceptID": "C0038015"
- },
- {
-   "DiseaseName": "Spondyloepiphyseal dysplasia, kimberley type",
-   "ConceptID": "C1842149"
- },
- {
-   "DiseaseName": "Spondyloepiphyseal dysplasia Maroteaux type",
-   "ConceptID": "C3159322"
- },
- {
-   "DiseaseName": "Spondyloepiphyseal dysplasia, stanescu type",
-   "ConceptID": "C4225273"
- },
- {
-   "DiseaseName": "Spondyloepiphyseal dysplasia tarda autosomal dominant",
-   "ConceptID": "C1866717"
- },
- {
-   "DiseaseName": "Spondyloepiphyseal dysplasia tarda, autosomal recessive",
-   "ConceptID": "C1849054"
- },
- {
-   "DiseaseName": "Spondyloepiphyseal dysplasia tarda, autosomal recessive, leroy-spranger type",
-   "ConceptID": "C1836584"
- },
- {
-   "DiseaseName": "Spondyloepiphyseal dysplasia tarda",
-   "ConceptID": "C3541456"
- },
- {
-   "DiseaseName": "Spondyloepiphyseal dysplasia tarda with characteristic facies",
-   "ConceptID": "C1838653"
- },
- {
-   "DiseaseName": "Spondyloepiphyseal dysplasia tarda with mental retardation",
-   "ConceptID": "C1849053"
- },
- {
-   "DiseaseName": "Spondyloepiphyseal dysplasia with atlantoaxial instability",
-   "ConceptID": "C1833603"
- },
- {
-   "DiseaseName": "Spondyloepiphyseal dysplasia with congenital joint dislocations",
-   "ConceptID": "C1840471"
- },
- {
-   "DiseaseName": "Spondyloepiphyseal dysplasia with coronal craniosynostosis, cataracts, cleft palate, and mental retardation",
-   "ConceptID": "C1865134"
- },
- {
-   "DiseaseName": "Spondyloepiphyseal dysplasia with punctate corneal dystrophy",
-   "ConceptID": "C1866727"
- },
- {
-   "DiseaseName": "Spondylolisthesis at L5-S1",
-   "ConceptID": "C3275799"
  },
  {
    "DiseaseName": "Spondylolisthesis",
@@ -84813,8 +83357,8 @@
    "ConceptID": "C0038018"
  },
  {
-   "DiseaseName": "Spondylomegaepiphyseal dysplasia with upper limb mesomelia, punctate calcifications, and deafness",
-   "ConceptID": "C1865022"
+   "DiseaseName": "Spondylomegaepiphyseal dysplasia",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Spondylo-megaepiphyseal-metaphyseal dysplasia",
@@ -84903,10 +83447,6 @@
  {
    "DiseaseName": "Sprinting performance",
    "ConceptID": "C2319308"
- },
- {
-   "DiseaseName": "SPRINTING PERFORMANCE",
-   "ConceptID": "CN570509"
  },
  {
    "DiseaseName": "Spurred humeral metaphysis",
@@ -85449,10 +83989,6 @@
    "ConceptID": "C1154708"
  },
  {
-   "DiseaseName": "Stress/infection-induced lactic acidosis",
-   "ConceptID": "C4025278"
- },
- {
    "DiseaseName": "Stress urinary incontinence",
    "ConceptID": "C0042025"
  },
@@ -85465,24 +84001,12 @@
    "ConceptID": "C1861447"
  },
  {
-   "DiseaseName": "Striatal degeneration, autosomal dominant 1",
-   "ConceptID": "C4310808"
- },
- {
-   "DiseaseName": "Striatal degeneration, autosomal dominant 2",
-   "ConceptID": "C4310791"
- },
- {
    "DiseaseName": "Striatal Degeneration",
    "ConceptID": "CN239279"
  },
  {
-   "DiseaseName": "Striatal necrosis, bilateral, and progressive polyneuropathy",
-   "ConceptID": "C3150973"
- },
- {
-   "DiseaseName": "Striatal necrosis, bilateral, with dystonia",
-   "ConceptID": "C1838954"
+   "DiseaseName": "Striatal necrosis",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Striatal T2 hyperintensity",
@@ -87445,10 +85969,6 @@
    "ConceptID": "C1868397"
  },
  {
-   "DiseaseName": "Third degree atrioventricular block",
-   "ConceptID": "C0151517"
- },
- {
    "DiseaseName": "Thoracic aorta calcification",
    "ConceptID": "C1969292"
  },
@@ -88399,10 +86919,6 @@
  {
    "DiseaseName": "Transient hypogammaglobulinemia of infancy",
    "ConceptID": "C4020822"
- },
- {
-   "DiseaseName": "Transient hypophosphatemia",
-   "ConceptID": "C4024709"
  },
  {
    "DiseaseName": "Transient ischemic attack",
@@ -89461,42 +87977,6 @@
    "ConceptID": "C3277187"
  },
  {
-   "DiseaseName": "Type A1 brachydactyly",
-   "ConceptID": "C1862151"
- },
- {
-   "DiseaseName": "Type A2 brachydactyly",
-   "ConceptID": "C1832702"
- },
- {
-   "DiseaseName": "Type A4 brachydactyly",
-   "ConceptID": "C1862139"
- },
- {
-   "DiseaseName": "Type A5 brachydactyly",
-   "ConceptID": "C4303992"
- },
- {
-   "DiseaseName": "Type A brachydactyly",
-   "ConceptID": "C4024413"
- },
- {
-   "DiseaseName": "Type B brachydactyly",
-   "ConceptID": "C1862112"
- },
- {
-   "DiseaseName": "Type C brachydactyly",
-   "ConceptID": "C1862103"
- },
- {
-   "DiseaseName": "Type D brachydactyly",
-   "ConceptID": "C0220664"
- },
- {
-   "DiseaseName": "Type E brachydactyly",
-   "ConceptID": "C3275762"
- },
- {
    "DiseaseName": "Type I cryptotia",
    "ConceptID": "C4023442"
  },
@@ -89685,10 +88165,6 @@
    "ConceptID": "C0575904"
  },
  {
-   "DiseaseName": "Ulnar/fibular ray defect and brachydactyly",
-   "ConceptID": "C1837830"
- },
- {
    "DiseaseName": "Ulnar hypoplasia lobster claw deformity of feet",
    "ConceptID": "C1839123"
  },
@@ -89741,68 +88217,8 @@
    "ConceptID": "CN118844"
  },
  {
-   "DiseaseName": "UMOD-Associated Kidney Disease",
-   "ConceptID": "CN237794"
- },
- {
-   "DiseaseName": "Unaided visual acuity 0.1 LogMAR",
-   "ConceptID": "C4073010"
- },
- {
-   "DiseaseName": "Unaided visual acuity 0.2 LogMAR",
-   "ConceptID": "C4073011"
- },
- {
-   "DiseaseName": "Unaided visual acuity 0.3 LogMAR",
-   "ConceptID": "C4073012"
- },
- {
-   "DiseaseName": "Unaided visual acuity 0.4 LogMAR",
-   "ConceptID": "C4073013"
- },
- {
-   "DiseaseName": "Unaided visual acuity 0.5 LogMAR",
-   "ConceptID": "C4073014"
- },
- {
-   "DiseaseName": "Unaided visual acuity 0.6 LogMAR",
-   "ConceptID": "C4073015"
- },
- {
-   "DiseaseName": "Unaided visual acuity 0.7 LogMAR",
-   "ConceptID": "C4073016"
- },
- {
-   "DiseaseName": "Unaided visual acuity 0.8 LogMAR",
-   "ConceptID": "C4073017"
- },
- {
-   "DiseaseName": "Unaided visual acuity 0.9 LogMAR",
-   "ConceptID": "C4073018"
- },
- {
-   "DiseaseName": "Unaided visual acuity 1.0 LogMAR",
-   "ConceptID": "C4073019"
- },
- {
-   "DiseaseName": "Unaided visual acuity 1.1 LogMAR",
-   "ConceptID": "C4073020"
- },
- {
-   "DiseaseName": "Unaided visual acuity 1.2 LogMAR",
-   "ConceptID": "C4073021"
- },
- {
-   "DiseaseName": "Unaided visual acuity 1.3 LogMAR",
-   "ConceptID": "C4073022"
- },
- {
-   "DiseaseName": "Unaided visual acuity 2.0 LogMAR",
-   "ConceptID": "C4073023"
- },
- {
-   "DiseaseName": "Unaided visual acuity 3.0 LogMAR",
-   "ConceptID": "C4073024"
+   "DiseaseName": "Unaided visual acuity",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Unbalanced atrioventricular canal defect",
@@ -90133,24 +88549,8 @@
    "ConceptID": "C0342205"
  },
  {
-   "DiseaseName": "Uniparental disomy of 11",
-   "ConceptID": "CN036234"
- },
- {
-   "DiseaseName": "Uniparental disomy of 13",
-   "ConceptID": "CN036719"
- },
- {
-   "DiseaseName": "Uniparental disomy of 6",
-   "ConceptID": "CN170858"
- },
- {
-   "DiseaseName": "Uniparental disomy of 7",
-   "ConceptID": "C2931632"
- },
- {
-   "DiseaseName": "Uniparental disomy, paternal, chromosome 14",
-   "ConceptID": "C1842466"
+   "DiseaseName": "Uniparental disomy",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Unique green phenomenon",
@@ -90577,78 +88977,6 @@
    "ConceptID": "C0271097"
  },
  {
-   "DiseaseName": "Usher syndrome, type 1B",
-   "ConceptID": "C1848638"
- },
- {
-   "DiseaseName": "Usher syndrome, type 1",
-   "ConceptID": "C1568247"
- },
- {
-   "DiseaseName": "Usher syndrome, type 1C",
-   "ConceptID": "C1848604"
- },
- {
-   "DiseaseName": "Usher syndrome, type 1D",
-   "ConceptID": "C1832845"
- },
- {
-   "DiseaseName": "Usher syndrome, type 1E",
-   "ConceptID": "C1865865"
- },
- {
-   "DiseaseName": "Usher syndrome, type 1F",
-   "ConceptID": "C1865885"
- },
- {
-   "DiseaseName": "Usher syndrome, type 1G",
-   "ConceptID": "C1847089"
- },
- {
-   "DiseaseName": "Usher syndrome, type 1H",
-   "ConceptID": "C2675458"
- },
- {
-   "DiseaseName": "Usher syndrome, type 1J",
-   "ConceptID": "C3553944"
- },
- {
-   "DiseaseName": "Usher syndrome, type 1K",
-   "ConceptID": "C3539124"
- },
- {
-   "DiseaseName": "Usher syndrome, type 2A",
-   "ConceptID": "C1848634"
- },
- {
-   "DiseaseName": "Usher syndrome type 2",
-   "ConceptID": "C0339534"
- },
- {
-   "DiseaseName": "Usher syndrome, type 2C",
-   "ConceptID": "C2931213"
- },
- {
-   "DiseaseName": "Usher syndrome type 2c, GPR98/PDZD digenic",
-   "ConceptID": "C3148929"
- },
- {
-   "DiseaseName": "Usher syndrome, type 2D",
-   "ConceptID": "C1568249"
- },
- {
-   "DiseaseName": "Usher syndrome, type 3A",
-   "ConceptID": "C1568248"
- },
- {
-   "DiseaseName": "Usher syndrome, type 3B",
-   "ConceptID": "C3281066"
- },
- {
-   "DiseaseName": "Usher syndrome type ID/F, CDH23/PCDH15, digenic",
-   "ConceptID": "CN121478"
- },
- {
    "DiseaseName": "Uterine arteriovenous malformation",
    "ConceptID": "C4531179"
  },
@@ -90681,10 +89009,6 @@
    "ConceptID": "C0156372"
  },
  {
-   "DiseaseName": "Uterus bicornis bicollis with partial vaginal septum and unilateral hematocolpos with ipsilateral renal agenesis",
-   "ConceptID": "C1860549"
- },
- {
    "DiseaseName": "Uterus didelphys",
    "ConceptID": "C0152240"
  },
@@ -90699,14 +89023,6 @@
  {
    "DiseaseName": "Uv-induced skin damage, susceptibility to",
    "ConceptID": "C2678403"
- },
- {
-   "DiseaseName": "UV-sensitive syndrome 2",
-   "ConceptID": "C3553298"
- },
- {
-   "DiseaseName": "UV-sensitive syndrome 3",
-   "ConceptID": "C3553328"
  },
  {
    "DiseaseName": "UV-sensitive syndrome",
@@ -90829,24 +89145,12 @@
    "ConceptID": "C0796192"
  },
  {
-   "DiseaseName": "Van der Woude syndrome 1, modifier of",
-   "ConceptID": "C1858298"
- },
- {
-   "DiseaseName": "Van der Woude syndrome 2",
-   "ConceptID": "C1847604"
- },
- {
    "DiseaseName": "Van der Woude syndrome",
    "ConceptID": "C0175697"
  },
  {
    "DiseaseName": "Vanishing testis",
    "ConceptID": "CN188791"
- },
- {
-   "DiseaseName": "Van Maldergem syndrome 2",
-   "ConceptID": "C3809875"
  },
  {
    "DiseaseName": "Van Maldergem syndrome",
@@ -91421,8 +89725,8 @@
    "ConceptID": "C4021977"
  },
  {
-   "DiseaseName": "Visceral heterotaxy 5, autosomal",
-   "ConceptID": "C3495537"
+   "DiseaseName": "Visceral heterotaxy",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Visceral myopathy",
@@ -91433,12 +89737,8 @@
    "ConceptID": "C1848586"
  },
  {
-   "DiseaseName": "Visceral neuropathy, familial, autosomal dominant",
-   "ConceptID": "C1864996"
- },
- {
-   "DiseaseName": "Visceral neuropathy familial",
-   "ConceptID": "C1855733"
+   "DiseaseName": "Visceral neuropathy",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Visceral steatosis",
@@ -91583,14 +89883,6 @@
  {
    "DiseaseName": "Vitamin K-Dependent Clotting Factors",
    "ConceptID": "CN239236"
- },
- {
-   "DiseaseName": "Vitamin k-dependent clotting factors, combined deficiency of, 1",
-   "ConceptID": "C1848534"
- },
- {
-   "DiseaseName": "Vitamin k-dependent clotting factors, combined deficiency of, 2",
-   "ConceptID": "C1843832"
  },
  {
    "DiseaseName": "Vitelliform-like macular lesions",
