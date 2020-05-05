@@ -16905,28 +16905,8 @@
    "ConceptID": "C2750087"
  },
  {
-   "DiseaseName": "Bile acid synthesis defect, congenital, 1",
-   "ConceptID": "C1843116"
- },
- {
-   "DiseaseName": "Bile acid synthesis defect, congenital, 2",
-   "ConceptID": "C1856127"
- },
- {
-   "DiseaseName": "Bile acid synthesis defect, congenital, 3",
-   "ConceptID": "C3151147"
- },
- {
-   "DiseaseName": "Bile acid synthesis defect, congenital, 4",
-   "ConceptID": "C1858328"
- },
- {
-   "DiseaseName": "Bile acid synthesis defect, congenital, 5",
-   "ConceptID": "C4225390"
- },
- {
-   "DiseaseName": "Bile acid synthesis defect, congenital, 6",
-   "ConceptID": "C4310624"
+   "DiseaseName": "Bile acid synthesis defect",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Bile and pancreatic ducts, complete absence of",
@@ -16947,22 +16927,6 @@
  {
    "DiseaseName": "Biliary cirrhosis",
    "ConceptID": "C0023892"
- },
- {
-   "DiseaseName": "Biliary cirrhosis, primary, 2",
-   "ConceptID": "C2751696"
- },
- {
-   "DiseaseName": "Biliary cirrhosis, primary, 3",
-   "ConceptID": "C2751695"
- },
- {
-   "DiseaseName": "Biliary cirrhosis, primary, 4",
-   "ConceptID": "C3280201"
- },
- {
-   "DiseaseName": "Biliary cirrhosis, primary, 5",
-   "ConceptID": "C3280202"
  },
  {
    "DiseaseName": "Biliary dyskinesia",
@@ -17093,16 +17057,8 @@
    "ConceptID": "CN235253"
  },
  {
-   "DiseaseName": "Birth weight quantitative trait locus 1",
-   "ConceptID": "C3150459"
- },
- {
-   "DiseaseName": "Birth weight quantitative trait locus 2",
-   "ConceptID": "C3150709"
- },
- {
-   "DiseaseName": "Birth weight quantitative trait locus 4",
-   "ConceptID": "C3554662"
+   "DiseaseName": "Birth weight quantitative trait",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Bisphosphonates response - Efficacy",
@@ -25729,10 +25685,6 @@
    "ConceptID": "C1836264"
  },
  {
-   "DiseaseName": "Congenital Bile Acid Synthesis Defect",
-   "ConceptID": "CN239183"
- },
- {
    "DiseaseName": "Congenital blindness",
    "ConceptID": "C0005754"
  },
@@ -34319,98 +34271,6 @@
  {
    "DiseaseName": "Early cutaneous photosensitivity",
    "ConceptID": "C4024889"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 10",
-   "ConceptID": "C3150667"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 11",
-   "ConceptID": "C3150987"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 12",
-   "ConceptID": "C3150988"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 13",
-   "ConceptID": "C3281191"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 14",
-   "ConceptID": "C3554195"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 15",
-   "ConceptID": "C3554316"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 16",
-   "ConceptID": "C3809173"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 17",
-   "ConceptID": "C3809606"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 18",
-   "ConceptID": "C3809624"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 21",
-   "ConceptID": "C4014430"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 2",
-   "ConceptID": "C1839333"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 34",
-   "ConceptID": "C4225257"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 4",
-   "ConceptID": "C2677326"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 55",
-   "ConceptID": "C4539843"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 59",
-   "ConceptID": "CN870853"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 5",
-   "ConceptID": "C3150731"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 61",
-   "ConceptID": "CN244550"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 62",
-   "ConceptID": "CN244551"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 7",
-   "ConceptID": "C3150986"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 8",
-   "ConceptID": "C1845102"
- },
- {
-   "DiseaseName": "Early infantile epileptic encephalopathy 9",
-   "ConceptID": "C1848137"
- },
- {
-   "DiseaseName": "Early Infantile Epileptic Encephalopathy, Autosomal Dominant",
-   "ConceptID": "CN239232"
- },
- {
-   "DiseaseName": "Early Infantile Epileptic Encephalopathy, Autosomal Recessive",
-   "ConceptID": "CN239237"
  },
  {
    "DiseaseName": "Early infantile epileptic encephalopathy",
@@ -70401,46 +70261,6 @@
    "ConceptID": "C1868199"
  },
  {
-   "DiseaseName": "Platelet-type bleeding disorder 11",
-   "ConceptID": "C3280120"
- },
- {
-   "DiseaseName": "Platelet-type bleeding disorder 13, susceptibility to",
-   "ConceptID": "C3279614"
- },
- {
-   "DiseaseName": "Platelet-type bleeding disorder 15",
-   "ConceptID": "C3554663"
- },
- {
-   "DiseaseName": "Platelet-type bleeding disorder 16",
-   "ConceptID": "C1861195"
- },
- {
-   "DiseaseName": "Platelet-type bleeding disorder 17",
-   "ConceptID": "C1861194"
- },
- {
-   "DiseaseName": "Platelet-type bleeding disorder 18",
-   "ConceptID": "C4014584"
- },
- {
-   "DiseaseName": "Platelet-type bleeding disorder 19",
-   "ConceptID": "C4015405"
- },
- {
-   "DiseaseName": "Platelet-type bleeding disorder 20",
-   "ConceptID": "C4310797"
- },
- {
-   "DiseaseName": "Platelet-type bleeding disorder 8",
-   "ConceptID": "C1853278"
- },
- {
-   "DiseaseName": "Platelet-type bleeding disorder 9",
-   "ConceptID": "C3280114"
- },
- {
    "DiseaseName": "Platelet-type bleeding disorder",
    "ConceptID": "CN236380"
  },
@@ -90797,20 +90617,8 @@
    "ConceptID": "C0549463"
  },
  {
-   "DiseaseName": "X-Linked Mental Retardation 41",
-   "ConceptID": "C3887939"
- },
- {
-   "DiseaseName": "X-Linked Mental Retardation 88",
-   "ConceptID": "C3275444"
- },
- {
-   "DiseaseName": "X-Linked Mental Retardation 89",
-   "ConceptID": "C1839082"
- },
- {
-   "DiseaseName": "X-Linked mental retardation 90",
-   "ConceptID": "C3275443"
+   "DiseaseName": "X-Linked Mental Retardation",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "X-linked mental retardation with marfanoid habitus syndrome",
