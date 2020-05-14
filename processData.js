@@ -28,7 +28,8 @@ function processData(data){
     arr.map((x, i) => {
       if(/\band\b/gi.test(x)){
         if(/\bnot\b/gi.test(x) || /\bdoes not\b/gi.test(x)  || /\bdoesn't\b/gi.test(x) || /\bdon't\b/gi.test(x)  ){
-          arr[i] = x.split('and')
+          // if negation is found split on "and"
+          arr[i] = x.split('and') 
         }
       }
     })
@@ -117,7 +118,8 @@ function processData(data){
         }
       }
     }
-    resolve({JaroWinkler:results, fuzzyResults: fuzzyResults, LevenshteinResults:LevenshteinResults })
+    // resolve({JaroWinkler:results, fuzzyResults: fuzzyResults, LevenshteinResults:LevenshteinResults })
+    resolve(LevenshteinResults)
   });
 }
 
