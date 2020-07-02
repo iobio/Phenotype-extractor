@@ -118,8 +118,8 @@ function processData(data){
         }
       }
     }
-    // resolve({JaroWinkler:results, fuzzyResults: fuzzyResults, LevenshteinResults:LevenshteinResults })
-    resolve(LevenshteinResults)
+    resolve({JaroWinkler:results, fuzzyResults: fuzzyResults, LevenshteinResults:LevenshteinResults })
+    // resolve(LevenshteinResults)
   });
 }
 

@@ -15241,10 +15241,6 @@
    "ConceptID": "CN118829"
  },
  {
-   "DiseaseName": "Autosomal recessive axonal hereditary motor and sensory neuropathy",
-   "ConceptID": "CN206449"
- },
- {
    "DiseaseName": "Autosomal recessive centronuclear myopathy",
    "ConceptID": "C0410204"
  },
@@ -25873,10 +25869,6 @@
    "ConceptID": "C1865866"
  },
  {
-   "DiseaseName": "Congenital sensory neuropathy with selective loss of small myelinated fibers",
-   "ConceptID": "C0020075"
- },
- {
    "DiseaseName": "Congenital short bowel syndrome, X-linked",
    "ConceptID": "C3806579"
  },
@@ -29813,10 +29805,6 @@
    "ConceptID": "C0497327"
  },
  {
-   "DiseaseName": "Dementia, Deafness, and Sensory Neuropathy",
-   "ConceptID": "CN239189"
- },
- {
    "DiseaseName": "Dementia familial British",
    "ConceptID": "C1867773"
  },
@@ -29843,10 +29831,6 @@
  {
    "DiseaseName": "Demyelinating peripheral neuropathy",
    "ConceptID": "CN006206"
- },
- {
-   "DiseaseName": "Demyelinating sensory neuropathy",
-   "ConceptID": "C4023373"
  },
  {
    "DiseaseName": "demyelinating type",
@@ -31571,10 +31555,6 @@
  {
    "DiseaseName": "Distal myopathy with rimmed vacuoles",
    "ConceptID": "CN239822"
- },
- {
-   "DiseaseName": "Distal peripheral sensory neuropathy",
-   "ConceptID": "C4021582"
  },
  {
    "DiseaseName": "Distal renal tubular acidosis",
@@ -43461,14 +43441,6 @@
    "ConceptID": "CN240759"
  },
  {
-   "DiseaseName": "Hereditary motor and sensory neuropathy",
-   "ConceptID": "C0027888"
- },
- {
-   "DiseaseName": "Hereditary motor and sensory neuropathy with optic atrophy",
-   "ConceptID": "C0393807"
- },
- {
    "DiseaseName": "Hereditary mucoepithelial dysplasia",
    "ConceptID": "C1274795"
  },
@@ -43601,16 +43573,8 @@
    "ConceptID": "C3280168"
  },
  {
-   "DiseaseName": "Hereditary sensory neuropathy type 1D",
-   "ConceptID": "C3150972"
- },
- {
-   "DiseaseName": "Hereditary sensory neuropathy type IE",
-   "ConceptID": "C3279885"
- },
- {
-   "DiseaseName": "Hereditary sensory neuropathy type IF",
-   "ConceptID": "C3810194"
+   "DiseaseName": "Hereditary sensory neuropathy",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Hereditary sideroblastic anemia",
@@ -76093,10 +76057,6 @@
    "ConceptID": "C0151313"
  },
  {
-   "DiseaseName": "Sensory Neuropathy with Spastic Paraplegia",
-   "ConceptID": "CN239462"
- },
- {
    "DiseaseName": "Separate origin of the left anterior descending and left circumflex artery",
    "ConceptID": "C4531059"
  },
@@ -86867,10 +86827,6 @@
  {
    "DiseaseName": "X-linked dominant Parkinson's disease",
    "ConceptID": "CN234611"
- },
- {
-   "DiseaseName": "X-linked hereditary motor and sensory neuropathy",
-   "ConceptID": "C0393808"
  },
  {
    "DiseaseName": "X-linked ichthyosis with steryl-sulfatase deficiency",
