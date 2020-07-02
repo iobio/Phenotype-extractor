@@ -14085,10 +14085,6 @@
    "ConceptID": "C4024888"
  },
  {
-   "DiseaseName": "Asymmetric peripheral demyelination",
-   "ConceptID": "C4022598"
- },
- {
    "DiseaseName": "Asymmetric radial dysplasia",
    "ConceptID": "C1969396"
  },
@@ -23597,6 +23593,10 @@
    "ConceptID": "C0338474"
  },
  {
+   "DiseaseName": "demyelination",
+   "ConceptID": ""
+ },
+ {
    "DiseaseName": "CNS hypermyelination",
    "ConceptID": "C4022742"
  },
@@ -29041,36 +29041,8 @@
    "ConceptID": "C0240997"
  },
  {
-   "DiseaseName": "Decreased serum complement C3",
-   "ConceptID": "C1837512"
- },
- {
-   "DiseaseName": "Decreased serum complement C4a",
-   "ConceptID": "C4073170"
- },
- {
-   "DiseaseName": "Decreased serum complement C4b",
-   "ConceptID": "C3280641"
- },
- {
-   "DiseaseName": "Decreased serum complement C4",
-   "ConceptID": "C4073169"
- },
- {
-   "DiseaseName": "Decreased serum complement C9",
-   "ConceptID": "C4021093"
- },
- {
-   "DiseaseName": "Decreased serum complement factor B",
-   "ConceptID": "C4021636"
- },
- {
-   "DiseaseName": "Decreased serum complement factor H",
-   "ConceptID": "C1969222"
- },
- {
-   "DiseaseName": "Decreased serum complement factor I",
-   "ConceptID": "C1970257"
+   "DiseaseName": "Decreased serum complement",
+   "ConceptID": ""
  },
  {
    "DiseaseName": "Decreased serum creatinine",
@@ -30893,10 +30865,6 @@
    "ConceptID": "C4025125"
  },
  {
-   "DiseaseName": "Diffuse demyelination of the cerebral white matter",
-   "ConceptID": "C4024930"
- },
- {
    "DiseaseName": "Diffuse glomerular basement membrane lamellation",
    "ConceptID": "C3278307"
  },
@@ -30935,10 +30903,6 @@
  {
    "DiseaseName": "Diffuse pancreatic islet hyperplasia",
    "ConceptID": "C4531265"
- },
- {
-   "DiseaseName": "Diffuse peripheral demyelination",
-   "ConceptID": "C4024971"
  },
  {
    "DiseaseName": "Diffuse reticular or finely nodular infiltrations",
@@ -65077,10 +65041,6 @@
    "ConceptID": "C4023754"
  },
  {
-   "DiseaseName": "Patchy demyelination of subcortical white matter",
-   "ConceptID": "C1857638"
- },
- {
    "DiseaseName": "Patchy distortion of vertebrae",
    "ConceptID": "C4025305"
  },
@@ -75817,14 +75777,6 @@
    "ConceptID": "CN232393"
  },
  {
-   "DiseaseName": "Segmental peripheral demyelination",
-   "ConceptID": "C4024938"
- },
- {
-   "DiseaseName": "Segmental peripheral demyelination/remyelination",
-   "ConceptID": "C1843077"
- },
- {
    "DiseaseName": "Segmental spinal muscular atrophy",
    "ConceptID": "C1866774"
  },
@@ -76211,10 +76163,6 @@
  {
    "DiseaseName": "Severe cystic degeneration of the brain",
    "ConceptID": "CN228278"
- },
- {
-   "DiseaseName": "Severe demyelination of the white matter",
-   "ConceptID": "C1856001"
  },
  {
    "DiseaseName": "severe developmental disability",
@@ -80809,10 +80757,6 @@
    "ConceptID": "C1865045"
  },
  {
-   "DiseaseName": "Symmetrical progressive peripheral demyelination",
-   "ConceptID": "C4024972"
- },
- {
    "DiseaseName": "symmetric basal ganglia lesions",
    "ConceptID": "CN232684"
  },
@@ -80827,10 +80771,6 @@
  {
    "DiseaseName": "Symmetric lesions of the basal ganglia",
    "ConceptID": "C4024947"
- },
- {
-   "DiseaseName": "Symmetric peripheral demyelination",
-   "ConceptID": "C4024914"
  },
  {
    "DiseaseName": "Symmetric spinal nerve root neurofibromas",
