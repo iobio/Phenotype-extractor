@@ -10,14 +10,21 @@ const DiseaseNames = require('./DiseaseNamesCleaned.json');
 const natural = require('natural');
 const FuzzySet = require('fuzzyset.js');
 const util= require('util');
+const HPO_Terms = require('./HPO_Terms')
+const HPO_Phenotypes = require('./HPO_Phenotypes');
 
 const args = process.argv.slice(2)
 
 var fileName = args[0];
 
 
-fs.readFile(fileName, 'utf-8', ((err, data) => {
-  runPhenotypeExtractor(data);
+fs.readFile(fileName, 'utf-8', ((err, inputData) => {
+  // runPhenotypeExtractor(data);
+  var processedData = processData(inputData);
+  processedData.then(data => {
+    console.log(data)
+    return data
+  })
 }));
 
 function runPhenotypeExtractor(notes){

@@ -3,10 +3,11 @@ const exec = require('child_process').exec
 var DiseaseNames = require('./DiseaseNamesCleaned.json');
 var natural = require('natural');
 var FuzzySet = require('fuzzyset.js');
+const HPO_Terms = require('./HPO_Terms')
+const HPO_Phenotypes = require('./HPO_Phenotypes');
 
 
 function processData(data){
-  // console.log("data in processData")
   Object.defineProperty(Array.prototype, 'flat', {
     value: function(depth = 1) {
       return this.reduce(function (flat, toFlatten) {
@@ -18,6 +19,7 @@ function processData(data){
   });
 
   return new Promise(function(resolve, reject) {
+    var hpoIds = extractHpoIds(data)
     data = data.replace(/\bbut\b/gi, ';' );
     var arr = data.split(',').join(':').trim().split(';').join(':').trim()
                   .split('.').join(':').trim()
@@ -118,7 +120,7 @@ function processData(data){
         }
       }
     }
-    resolve({JaroWinkler:results, fuzzyResults: fuzzyResults, LevenshteinResults:LevenshteinResults })
+    resolve({JaroWinkler:results, fuzzyResults: fuzzyResults, LevenshteinResults:LevenshteinResults, hpoIds:hpoIds })
     // resolve(LevenshteinResults)
   });
 }
@@ -156,6 +158,21 @@ function checkForFlaggedWords(arr){
     res1.push(temp);
   })
   return res1;
+}
+
+function extractHpoIds(str){
+  var newStr = str; 
+  var separators = [',', ';', ' ' ];
+  var arr = newStr.split(new RegExp(separators.join('|'), 'g'));
+  
+  var ids = [];
+  arr.map(x => {
+    if(HPO_Terms.includes(x)) {
+      ids.push(x);
+    }
+  })
+  var hpoIds = Array.from(new Set(ids));
+  return hpoIds;
 }
 
 
