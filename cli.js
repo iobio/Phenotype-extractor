@@ -23,8 +23,9 @@ fs.readFile(fileName, 'utf-8', ((err, inputData) => {
   var processedData = processData(inputData);
   processedData.then(data => {
     // console.log(data)
-    console.log(util.inspect(data, { maxArrayLength: null }))
-    return data
+    var resp = util.inspect(data, { maxArrayLength: null })
+    console.log(resp);
+    return resp;
   })
 }));
 
