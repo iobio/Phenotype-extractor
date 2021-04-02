@@ -22,7 +22,8 @@ fs.readFile(fileName, 'utf-8', ((err, inputData) => {
   // runPhenotypeExtractor(data);
   var processedData = processData(inputData);
   processedData.then(data => {
-    console.log(data)
+    // console.log(data)
+    console.log(util.inspect(data, { maxArrayLength: null }))
     return data
   })
 }));
