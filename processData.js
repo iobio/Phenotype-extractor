@@ -1,11 +1,7 @@
-// const spawn = require("child_process").spawn;
-// const exec = require('child_process').exec
 var DiseaseNames = require('./DiseaseNamesCleaned.json');
 var natural = require('natural');
 var FuzzySet = require('fuzzyset.js');
 const HPO_Terms = require('./HPO_Terms')
-// const HPO_Phenotypes = require('./HPO_Phenotypes');
-
 
 function processData(data){
   Object.defineProperty(Array.prototype, 'flat', {
