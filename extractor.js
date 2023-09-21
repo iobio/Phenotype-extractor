@@ -1,8 +1,4 @@
 const spawn = require("child_process").spawn;
-const exec = require('child_process').exec
-var DiseaseNames = require('./DiseaseNamesCleaned.json');
-var natural = require('natural');
-var FuzzySet = require('fuzzyset.js');
 
 var processData = require('./processData');
 
