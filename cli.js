@@ -10,7 +10,7 @@ fs.readFile(fileName, 'utf-8', ((err, inputData) => {
   var processedData = processData(inputData);
   processedData.then(data => {
     var resp = util.inspect(data, { maxArrayLength: null })
-    console.log(resp);
-    return resp;
+    console.log(JSON.stringify(resp));
+    return JSON.stringify(resp);
   })
 }));
