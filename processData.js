@@ -33,8 +33,8 @@ function processData(data){
     var results = [];
     var fuzzyResults = [];
     var LevenshteinResults = [];
-    for(var i=0; i<res2.length; i++){
-      for(var j=0; j<DiseaseNames.data.length; j++){
+    for(var i = 0; i < res2.length; i++){
+      for(var j = 0; j<DiseaseNames.data.length; j++){
         var sentence = res2[i].replace(/-/g, " ").replace(/\s\s+/g, ' ').toLowerCase().trim();
         sentence = sentence.replace(/\bdisease\b$/gi, "").replace(/\bsyndrome\b$/gi, ""); //Replaces syndrome or dieases at the end of the word.
 
@@ -46,7 +46,7 @@ function processData(data){
                            .replace(/\bmpph\b/gi, 'megalencephaly polymicrogyria polydactyly hydrocephalus')
                            .replace(/\bCDG\b/gi, 'Congenital disorder of glycosylation')
 
-        if(sentence.length>= condition.length){
+        if(sentence.length >= condition.length){
           if(condition !== "disease" && condition !== "Disease" && condition.length > 2 ){
             if(sentence.includes(condition) || natural.JaroWinklerDistance(sentence, condition) > 0.9){
               if(!results.includes(DiseaseNames.data[j].DiseaseName) ){
