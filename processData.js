@@ -20,9 +20,7 @@ function processData(data){
     var arr = data.split(',').join(':').trim().split(';').join(':').trim()
                   .split('.').join(':').trim()
                   .split('\n').join(':').trim().split(':');
-                  // .split('of').join(':').trim()
-                  // .split('but').join(':').trim()
-    // console.log("Arr", arr)
+
     arr.map((x, i) => {
       if(/\band\b/gi.test(x)){
         if(/\bnot\b/gi.test(x) || /\bdoes not\b/gi.test(x)  || /\bdoesn't\b/gi.test(x) || /\bdon't\b/gi.test(x)  ){
@@ -32,12 +30,12 @@ function processData(data){
       }
     })
     arr = arr.flat();
-    // console.log("Arr again", arr)
+
 
     res = checkForNegativeFlags(arr)
     res1 = checkForFamilyFlags(res);
     res2 = checkForFlaggedWords(res1);
-    // console.log("res2", res2)
+
     var results = [];
     var fuzzyResults = [];
     var LevenshteinResults = [];
@@ -53,14 +51,9 @@ function processData(data){
                            .replace(/\bdd\b/gi, 'developmental delay')
                            .replace(/\bmpph\b/gi, 'megalencephaly polymicrogyria polydactyly hydrocephalus')
                            .replace(/\bCDG\b/gi, 'Congenital disorder of glycosylation')
-        //TODO: Find exact word match in the sentence using boundaries of regex and then replace.
-        // if(sentence === "hypotonia" || sentence === "epilepsy" || sentence === "joint contracture"){
-        //   if(!results.includes(sentence)){
-        //     results.push(sentence);
-        //   }
-        // }
+
         if(sentence.length>= condition.length){
-          if(condition!== "disease" && condition!== "Disease" && condition.length>2 ){
+          if(condition !== "disease" && condition !== "Disease" && condition.length > 2 ){
             if(sentence.includes(condition) || natural.JaroWinklerDistance(sentence, condition) > 0.9){
               if(!results.includes(DiseaseNames.data[j].DiseaseName) ){
 
@@ -71,13 +64,13 @@ function processData(data){
                 var LevenshteinFormula = natural.LevenshteinDistance(condition, sentence, {search: true});
                 var LevenshteinFormulaDistance = LevenshteinFormula.distance;
 
-                if(LevenshteinFormulaDistance<=1){
+                if(LevenshteinFormulaDistance <= 1){
                   LevenshteinResults.push(DiseaseNames.data[j].DiseaseName);
                 }
 
                 var a = FuzzySet();
                 a.add(sentence);
-                if(a.get(condition)!== null && a.get(condition)[0][0]> 0.86){
+                if(a.get(condition)!== null && a.get(condition)[0][0] > 0.86){
                   fuzzyResults.push(DiseaseNames.data[j].DiseaseName);
                 }
 
@@ -87,7 +80,7 @@ function processData(data){
         }
         else if(sentence.length < condition.length){
 
-          if(condition!== "disease" && condition!== "Disease" && condition.length>2 && sentence.length>2) {
+          if(condition !== "disease" && condition!== "Disease" && condition.length >2 && sentence.length >2) {
             if(condition.includes(sentence) || natural.JaroWinklerDistance(sentence, condition) > 0.9){
               if(!results.includes(DiseaseNames.data[j].DiseaseName) ){
 
@@ -98,14 +91,14 @@ function processData(data){
                 var LevenshteinFormula = natural.LevenshteinDistance(sentence, condition, {search: true});
                 var LevenshteinFormulaDistance = LevenshteinFormula.distance;
 
-                if(LevenshteinFormulaDistance<=2){
+                if(LevenshteinFormulaDistance <= 2){
                   LevenshteinResults.push(DiseaseNames.data[j].DiseaseName);
                 }
 
 
                 var a = FuzzySet();
                 a.add(sentence);
-                if(a.get(condition)!== null && a.get(condition)[0][0]> 0.86){
+                if(a.get(condition) !== null && a.get(condition)[0][0] > 0.86){
                   fuzzyResults.push(DiseaseNames.data[j].DiseaseName);
                 }
               }
@@ -117,7 +110,6 @@ function processData(data){
       }
     }
     resolve({JaroWinkler:results, fuzzyResults: fuzzyResults, LevenshteinResults:LevenshteinResults, hpoIds:hpoIds })
-    // resolve(LevenshteinResults)
   });
 }
 
@@ -167,9 +159,12 @@ function extractHpoIds(str){
       ids.push(x);
     }
   })
+
+  // remove duplicates
   var hpoIds = Array.from(new Set(ids));
+  
+  // return unique hpoIds
   return hpoIds;
 }
-
 
 module.exports = processData;
