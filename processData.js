@@ -4,19 +4,14 @@ var FuzzySet = require('fuzzyset.js');
 const HPO_Terms = require('./HPO_Terms')
 
 function processData(data){
-  Object.defineProperty(Array.prototype, 'flat', {
-    value: function(depth = 1) {
-      return this.reduce(function (flat, toFlatten) {
-        return flat.concat((Array.isArray(toFlatten) && (depth>1)) ? toFlatten.flat(depth-1) : toFlatten);
-      }, []);
-    },
-    enumerable: true,
-    configurable: true
-  });
 
   return new Promise(function(resolve, reject) {
+    //Get HPO ids from the data using the function
     var hpoIds = extractHpoIds(data)
+
+    // replace all the 'but' with a semicolon
     data = data.replace(/\bbut\b/gi, ';' );
+
     var arr = data.split(',').join(':').trim().split(';').join(':').trim()
                   .split('.').join(':').trim()
                   .split('\n').join(':').trim().split(':');
@@ -30,7 +25,6 @@ function processData(data){
       }
     })
     arr = arr.flat();
-
 
     res = checkForNegativeFlags(arr)
     res1 = checkForFamilyFlags(res);
@@ -113,7 +107,6 @@ function processData(data){
   });
 }
 
-
 function checkForNegativeFlags(arr){
   const negativeFlags = ["negative", "non", "never", "without", "denies","no", "not", "none"];
   var res = [];
@@ -151,18 +144,21 @@ function checkForFlaggedWords(arr){
 function extractHpoIds(str){
   var newStr = str; 
   var separators = [',', ';', ' ' ];
+  //Split the string on the separators
   var arr = newStr.split(new RegExp(separators.join('|'), 'g'));
   
   var ids = [];
+
+  // if the item in the array is in the HPO_Terms array, push it to the ids array
   arr.map(x => {
     if(HPO_Terms.includes(x)) {
       ids.push(x);
     }
   })
 
-  // remove duplicates
+  // remove duplicates if there are any
   var hpoIds = Array.from(new Set(ids));
-  
+
   // return unique hpoIds
   return hpoIds;
 }
