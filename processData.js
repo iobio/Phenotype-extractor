@@ -1,32 +1,21 @@
-const spawn = require("child_process").spawn;
-const exec = require('child_process').exec
 var DiseaseNames = require('./DiseaseNamesCleaned.json');
 var natural = require('natural');
 var FuzzySet = require('fuzzyset.js');
 const HPO_Terms = require('./HPO_Terms')
-const HPO_Phenotypes = require('./HPO_Phenotypes');
-
 
 function processData(data){
-  Object.defineProperty(Array.prototype, 'flat', {
-    value: function(depth = 1) {
-      return this.reduce(function (flat, toFlatten) {
-        return flat.concat((Array.isArray(toFlatten) && (depth>1)) ? toFlatten.flat(depth-1) : toFlatten);
-      }, []);
-    },
-    enumerable: true,
-    configurable: true
-  });
 
   return new Promise(function(resolve, reject) {
+    //Get HPO ids from the data using the function
     var hpoIds = extractHpoIds(data)
+
+    // replace all the 'but' with a semicolon
     data = data.replace(/\bbut\b/gi, ';' );
+
     var arr = data.split(',').join(':').trim().split(';').join(':').trim()
                   .split('.').join(':').trim()
                   .split('\n').join(':').trim().split(':');
-                  // .split('of').join(':').trim()
-                  // .split('but').join(':').trim()
-    // console.log("Arr", arr)
+
     arr.map((x, i) => {
       if(/\band\b/gi.test(x)){
         if(/\bnot\b/gi.test(x) || /\bdoes not\b/gi.test(x)  || /\bdoesn't\b/gi.test(x) || /\bdon't\b/gi.test(x)  ){
@@ -36,17 +25,16 @@ function processData(data){
       }
     })
     arr = arr.flat();
-    // console.log("Arr again", arr)
 
     res = checkForNegativeFlags(arr)
     res1 = checkForFamilyFlags(res);
     res2 = checkForFlaggedWords(res1);
-    // console.log("res2", res2)
+
     var results = [];
     var fuzzyResults = [];
     var LevenshteinResults = [];
-    for(var i=0; i<res2.length; i++){
-      for(var j=0; j<DiseaseNames.data.length; j++){
+    for(var i = 0; i < res2.length; i++){
+      for(var j = 0; j<DiseaseNames.data.length; j++){
         var sentence = res2[i].replace(/-/g, " ").replace(/\s\s+/g, ' ').toLowerCase().trim();
         sentence = sentence.replace(/\bdisease\b$/gi, "").replace(/\bsyndrome\b$/gi, ""); //Replaces syndrome or dieases at the end of the word.
 
@@ -57,14 +45,9 @@ function processData(data){
                            .replace(/\bdd\b/gi, 'developmental delay')
                            .replace(/\bmpph\b/gi, 'megalencephaly polymicrogyria polydactyly hydrocephalus')
                            .replace(/\bCDG\b/gi, 'Congenital disorder of glycosylation')
-        //TODO: Find exact word match in the sentence using boundaries of regex and then replace.
-        // if(sentence === "hypotonia" || sentence === "epilepsy" || sentence === "joint contracture"){
-        //   if(!results.includes(sentence)){
-        //     results.push(sentence);
-        //   }
-        // }
-        if(sentence.length>= condition.length){
-          if(condition!== "disease" && condition!== "Disease" && condition.length>2 ){
+
+        if(sentence.length >= condition.length){
+          if(condition !== "disease" && condition !== "Disease" && condition.length > 2 ){
             if(sentence.includes(condition) || natural.JaroWinklerDistance(sentence, condition) > 0.9){
               if(!results.includes(DiseaseNames.data[j].DiseaseName) ){
 
@@ -75,13 +58,13 @@ function processData(data){
                 var LevenshteinFormula = natural.LevenshteinDistance(condition, sentence, {search: true});
                 var LevenshteinFormulaDistance = LevenshteinFormula.distance;
 
-                if(LevenshteinFormulaDistance<=1){
+                if(LevenshteinFormulaDistance <= 1){
                   LevenshteinResults.push(DiseaseNames.data[j].DiseaseName);
                 }
 
                 var a = FuzzySet();
                 a.add(sentence);
-                if(a.get(condition)!== null && a.get(condition)[0][0]> 0.86){
+                if(a.get(condition)!== null && a.get(condition)[0][0] > 0.86){
                   fuzzyResults.push(DiseaseNames.data[j].DiseaseName);
                 }
 
@@ -91,7 +74,7 @@ function processData(data){
         }
         else if(sentence.length < condition.length){
 
-          if(condition!== "disease" && condition!== "Disease" && condition.length>2 && sentence.length>2) {
+          if(condition !== "disease" && condition!== "Disease" && condition.length >2 && sentence.length >2) {
             if(condition.includes(sentence) || natural.JaroWinklerDistance(sentence, condition) > 0.9){
               if(!results.includes(DiseaseNames.data[j].DiseaseName) ){
 
@@ -102,14 +85,14 @@ function processData(data){
                 var LevenshteinFormula = natural.LevenshteinDistance(sentence, condition, {search: true});
                 var LevenshteinFormulaDistance = LevenshteinFormula.distance;
 
-                if(LevenshteinFormulaDistance<=2){
+                if(LevenshteinFormulaDistance <= 2){
                   LevenshteinResults.push(DiseaseNames.data[j].DiseaseName);
                 }
 
 
                 var a = FuzzySet();
                 a.add(sentence);
-                if(a.get(condition)!== null && a.get(condition)[0][0]> 0.86){
+                if(a.get(condition) !== null && a.get(condition)[0][0] > 0.86){
                   fuzzyResults.push(DiseaseNames.data[j].DiseaseName);
                 }
               }
@@ -121,10 +104,8 @@ function processData(data){
       }
     }
     resolve({JaroWinkler:results, fuzzyResults: fuzzyResults, LevenshteinResults:LevenshteinResults, hpoIds:hpoIds })
-    // resolve(LevenshteinResults)
   });
 }
-
 
 function checkForNegativeFlags(arr){
   const negativeFlags = ["negative", "non", "never", "without", "denies","no", "not", "none"];
@@ -163,17 +144,23 @@ function checkForFlaggedWords(arr){
 function extractHpoIds(str){
   var newStr = str; 
   var separators = [',', ';', ' ' ];
+  //Split the string on the separators
   var arr = newStr.split(new RegExp(separators.join('|'), 'g'));
   
   var ids = [];
+
+  // if the item in the array is in the HPO_Terms array, push it to the ids array
   arr.map(x => {
     if(HPO_Terms.includes(x)) {
       ids.push(x);
     }
   })
+
+  // remove duplicates if there are any
   var hpoIds = Array.from(new Set(ids));
+
+  // return unique hpoIds
   return hpoIds;
 }
-
 
 module.exports = processData;
